@@ -1,3 +1,6 @@
-# Crossing-The-Divide
+# Crossing-The-Divide beta site
 
-This is a simple website for a highschool club.
+
+Crossing the divide is a higschool organization aiming to reduce political polarization by exposing students to a variety of perspectives.
+
+

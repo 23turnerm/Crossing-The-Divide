@@ -2,7 +2,7 @@
 $blue: #012765;
 $red: #B30C33;
 $offwhite: #EFEFEF;
-$mainshadow: 8rem 8rem 25rem #D6D6D6;
+$mainshadow: 0.4em 0.6em 1em #b4b4b4;
 
 html {
     display: flexbox;
@@ -27,9 +27,9 @@ body {
     width: 100%;
 
     #svg-logo {
-        width: 30em;
+        width: 28em;
         height: 100%;
-        margin: -4.5em 0 0 -4em;
+        margin: -4.4em 0 0 -4em;
     }
     
     .navbar {
@@ -56,6 +56,7 @@ body {
             border: none;
             color: white;
             border-radius: 2em;
+            box-shadow: $mainshadow;
         }
 
     }

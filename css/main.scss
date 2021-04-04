@@ -24,9 +24,14 @@ body {
 .top-section {
     display: flex;
     justify-content: space-between;
-    height: 20em;
     width: 100%;
 
+    #svg-logo {
+        width: 30em;
+        height: 100%;
+        margin: -4.5em 0 0 -4em;
+    }
+    
     .navbar {
         display: flex;
         flex-direction: row;
@@ -34,10 +39,11 @@ body {
         padding: 2em 4em 0 0;
         margin: 0;
         height: min-content;
+        width: min-content;
+        align-items: center;
 
         li {
-            display: inline-block;
-            margin: 0 0 0 2.4em;
+            margin: 0 2.4em 0 0;
             height: min-content;
             font-size: 1.4em;
             font-weight: 500;
@@ -45,11 +51,11 @@ body {
         }
         .join-btn {
             padding: 0.3em 2.2em;
-            transform: translate(0,-0.3em);
+            margin: 0;
             background-color: $blue;
             border: none;
             color: white;
-            border-radius: 1em;
+            border-radius: 2em;
         }
 
     }
@@ -57,22 +63,17 @@ body {
 }
 
 .title {
-    margin: 2.7em 0 0 2.2em;
+    margin: 2em 0 0 2em;
 }
 
 h1 {
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
-    font-size: 5em;
+    font-size: 4.5em;
 }
 
 p {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 1.4em;
-}
-
-.svg-logo {
-    width: 60em;
-    transform: translate(-16em, -24em);
 }

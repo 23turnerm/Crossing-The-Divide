@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Poppins:wght@300;400;500;700&display=swap');
+$blue: #012765;
+$red: #B30C33;
+$offwhite: #EFEFEF;
+$mainshadow: 8rem 8rem 25rem #D6D6D6;
+
+html {
+    display: flexbox;
+}
+
+body {
+    border-radius: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.center-container {
+    width: 100vw;
+    max-width: 1920px;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    height: 20em;
+    width: 100%;
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding: 2em 4em 0 0;
+        margin: 0;
+        height: min-content;
+
+        li {
+            display: inline-block;
+            margin: 0 0 0 2.4em;
+            height: min-content;
+            font-size: 1.4em;
+            font-weight: 500;
+
+        }
+        .join-btn {
+            padding: 0.3em 2.2em;
+            transform: translate(0,-0.3em);
+            background-color: $blue;
+            border: none;
+            color: white;
+            border-radius: 1em;
+        }
+
+    }
+
+}
+
+.title {
+    margin: 2.7em 0 0 2.2em;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+.svg-logo {
+    width: 60em;
+    transform: translate(-16em, -24em);
+}

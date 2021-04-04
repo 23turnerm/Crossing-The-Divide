@@ -2,11 +2,13 @@
 $blue: #012765;
 $red: #B30C33;
 $offwhite: #EFEFEF;
-$mainshadow: 0.4em 0.6em 1em #b4b4b4;
+$mainshadow: 0.4em 0.4em 1.5em #b4b4b4;
 
 html {
     display: flexbox;
 }
+
+
 
 body {
     border-radius: border-box;
@@ -36,7 +38,7 @@ body {
         display: flex;
         flex-direction: row;
         list-style-type: none;
-        padding: 2em 4em 0 0;
+        padding: 2em 3em 0 0;
         margin: 0;
         height: min-content;
         width: min-content;
@@ -47,24 +49,62 @@ body {
             height: min-content;
             font-size: 1.4em;
             font-weight: 500;
+            cursor: pointer;
 
         }
         .join-btn {
-            padding: 0.3em 2.2em;
+            padding: 0.3em 2em;
             margin: 0;
             background-color: $blue;
-            border: none;
-            color: white;
             border-radius: 2em;
             box-shadow: $mainshadow;
+            cursor: pointer;
+
         }
 
     }
 
 }
+.hero-block {
+    margin: 8em 0 0 10em;
+    display: flex;
+    flex-direction: column;
 
-.title {
-    margin: 2em 0 0 2em;
+    .title {
+        margin: 0;
+        width: fit-content;
+    }
+
+    p {
+        width: 25em;
+        margin: .6em 0 0 .2em;
+    }
+
+    .hero-join {
+        width: fit-content;
+        padding: 0.3em 2em;
+        margin: 1em 0 0 0;
+        font-size: 1.4em;
+        font-weight: 500;
+        background-color: $red;
+        color: white;
+        border-radius: 2em;
+        cursor: pointer;
+        box-shadow: $mainshadow;
+    }
+}
+
+#red-blob {
+    z-index: -2;
+    position: absolute;
+    right: 0px;
+    width: 35em;
+    margin: -16em -10em 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 h1 {

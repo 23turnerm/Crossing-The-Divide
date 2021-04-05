@@ -6,6 +6,10 @@ $mainshadow: 0.4em 0.4em 1.5em #b4b4b4;
 
 html {
     display: flexbox;
+    ::selection {
+        color: white;
+        background-color: black;
+    }
 }
 
 
@@ -137,6 +141,7 @@ body {
         #polarization-graph {
             height: 100%;
             width: 18em;
+            filter: drop-shadow($mainshadow);
         }
 
         .second-block {
@@ -162,12 +167,13 @@ body {
     background-color: $offwhite;
     width: 100%;
     margin: 20em 0 0 0;
-    height: 20em;
+    height: 15em;
     justify-content: center;
     align-items: center;
 
-    h1 {
+    p {
         color: black;
+        font-weight: bold;
     }
 }
 

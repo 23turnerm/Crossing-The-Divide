@@ -38,7 +38,7 @@ body {
     #svg-logo {
         width: 28em;
         height: 100%;
-        margin: -3.4em 0 0 -4.6em;
+        margin: -3.4em 0 0 -5em;
         filter: drop-shadow($mainshadow);
     }
     
@@ -80,7 +80,7 @@ body {
 }
 
 .hero-block {
-    margin: 11em 0 0 11em;
+    margin: 13em 0 0 11em;
     display: flex;
     flex-direction: column;
 
@@ -141,7 +141,8 @@ body {
         #polarization-graph {
             height: 100%;
             width: 18em;
-            filter: drop-shadow($mainshadow);
+            filter: drop-shadow(0.2em 0.2em .8em #d3d3d3);
+            user-select: none;
         }
 
         .second-block {

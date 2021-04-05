@@ -51,7 +51,7 @@ body {
 .top-section #svg-logo {
   width: 28em;
   height: 100%;
-  margin: -3.4em 0 0 -4.6em;
+  margin: -3.4em 0 0 -5em;
   -webkit-filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
           filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
 }
@@ -109,7 +109,7 @@ body {
 }
 
 .hero-block {
-  margin: 11em 0 0 11em;
+  margin: 13em 0 0 11em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -203,8 +203,12 @@ body {
 .second-cont .second #polarization-graph {
   height: 100%;
   width: 18em;
-  -webkit-filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
-          filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
+  -webkit-filter: drop-shadow(0.2em 0.2em 0.8em #d3d3d3);
+          filter: drop-shadow(0.2em 0.2em 0.8em #d3d3d3);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .second-cont .second .second-block {

@@ -22,6 +22,8 @@ body {
 .center-container {
     width: 100vw;
     max-width: 1920px;
+    display: flex;
+    flex-direction: column;
 }
 
 .top-section {
@@ -108,11 +110,10 @@ body {
 }
 
 #red-blob {
+    align-self: flex-end;
     z-index: -2;
-    position: absolute;
-    right: 0px;
+    margin: -10em -10em;
     width: 35em;
-    margin: -15em -12em 0 0;
     filter: drop-shadow($mainshadow);
 }
 
@@ -127,19 +128,47 @@ body {
 
     .second {
         width: calc(100% - 22em);
-        margin: 25em 0 0 0;
+        margin: 15em 0 0 0;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
 
         #polarization-graph {
             height: 100%;
             width: 16em;
         }
 
+        .second-block {
+            height: fit-content;
+            h1 {
+                margin: 0;
+                width: fit-content;
+            }
+
+            p {
+                width: 25em;
+                margin: .6em 0 0 .2em;
+            }
+        }
+
         
     }
 
+}
+
+.footer {
+    display: flex;
+    background-color: $offwhite;
+    width: 100%;
+    margin: 20em 0 0 0;
+    height: 20em;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color: black;
+    }
 }
 
 a {

@@ -1,146 +1,443 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Emiliano Garcia-Lopez">
-    <meta name="keywords" content="crossing the divide, politics, political polarization, high school">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="shortcut icon" href="/images/favicon.svg" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Emiliano Garcia-Lopez" />
+    <meta
+      name="keywords"
+      content="crossing the divide, politics, political polarization, high school"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" href="/images/favicon.svg" type="image/x-icon" />
     <title>Crossing The Divide</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="center-container">
-
-        <div class="top-section">
-            
-            <svg version="1.1" id="svg-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                    viewBox="0 0 492 343.6" style="enable-background:new 0 0 490.3 343.6;" xml:space="preserve">
-                <style type="text/css">
-                    .st0{fill:#012765;}
-                    .st1{fill:none;stroke:#B30C33;stroke-width:2;stroke-miterlimit:10;}
-                    .st2{fill:#FFFFFF;}
-                    .st3{fill:#B30C33;}
-                </style>
-                <g id="Blob_1_" transform="matrix(1, 0, 0, 1, -29.5, -29.5)">
-                    <path id="Blue_blob-2_1_" class="st0" d="M57.5,125.2c87.8-127.6,382.7-126.6,449.6-8c20.4,36.1,14,73.1,12,85
-                        c-19.9,115.6-186.6,199.4-279.6,162c-36.6-14.7-35.4-54-99-54c-46,0-74.4-34.8-93-56.9C20.6,221.3,28.8,167,57.5,125.2z"/>
-                </g>
-                <g id="Logo_1_" transform="translate(301.086 368.621)">
-                    <g id="Group_165_1_" transform="translate(126.525 40.335)">
-                        <path id="Path_965_1_" class="st1" d="M-223.4-250.7c0,0,37.4-14.2,37.4-67.8"/>
-                        <path id="Path_966_1_" class="st1" d="M-134.4-250.7c0,0-37.4-14.2-37.4-67.8"/>
-                        <path id="Path_967_1_" class="st2" d="M-154.8-183v4.7h-49v-4.7c2.8,0,5.7-0.3,8.4-1c1.8-0.4,3.5-1.3,4.9-2.6
+      <div class="top-section">
+        <svg
+          version="1.1"
+          id="svg-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 492 343.6"
+          style="enable-background: new 0 0 490.3 343.6"
+          xml:space="preserve"
+        >
+          <style type="text/css">
+            .st0 {
+              fill: #012765;
+            }
+            .st1 {
+              fill: none;
+              stroke: #b30c33;
+              stroke-width: 2;
+              stroke-miterlimit: 10;
+            }
+            .st2 {
+              fill: #ffffff;
+            }
+            .st3 {
+              fill: #b30c33;
+            }
+          </style>
+          <g id="Blob_1_" transform="matrix(1, 0, 0, 1, -29.5, -29.5)">
+            <path
+              id="Blue_blob-2_1_"
+              class="st0"
+              d="M57.5,125.2c87.8-127.6,382.7-126.6,449.6-8c20.4,36.1,14,73.1,12,85
+                        c-19.9,115.6-186.6,199.4-279.6,162c-36.6-14.7-35.4-54-99-54c-46,0-74.4-34.8-93-56.9C20.6,221.3,28.8,167,57.5,125.2z"
+            />
+          </g>
+          <g id="Logo_1_" transform="translate(301.086 368.621)">
+            <g id="Group_165_1_" transform="translate(126.525 40.335)">
+              <path
+                id="Path_965_1_"
+                class="st1"
+                d="M-223.4-250.7c0,0,37.4-14.2,37.4-67.8"
+              />
+              <path
+                id="Path_966_1_"
+                class="st1"
+                d="M-134.4-250.7c0,0-37.4-14.2-37.4-67.8"
+              />
+              <path
+                id="Path_967_1_"
+                class="st2"
+                d="M-154.8-183v4.7h-49v-4.7c2.8,0,5.7-0.3,8.4-1c1.8-0.4,3.5-1.3,4.9-2.6
                             c1.2-1.2,1.9-2.7,2.2-4.4c0.4-2.1,0.5-4.3,0.5-6.4v-37.8h17.2v37.8c0,2.2,0.1,4.3,0.5,6.4c0.3,1.6,1,3.2,2.2,4.4
-                            c1.3,1.3,3,2.2,4.8,2.6C-160.3-183.3-157.6-183-154.8-183z"/>
-                        <path id="Path_968_1_" class="st3" d="M-187.1-315.3v65.1h16.3v-65.1H-187.1z M-173-252.8h-11.8V-265c0-0.4,0.4-0.8,0.8-0.8l0,0
+                            c1.3,1.3,3,2.2,4.8,2.6C-160.3-183.3-157.6-183-154.8-183z"
+              />
+              <path
+                id="Path_968_1_"
+                class="st3"
+                d="M-187.1-315.3v65.1h16.3v-65.1H-187.1z M-173-252.8h-11.8V-265c0-0.4,0.4-0.8,0.8-0.8l0,0
                             h10.2c0.4,0,0.8,0.4,0.8,0.8l0,0V-252.8z M-173-270.5c0,0.4-0.4,0.8-0.8,0.8l0,0H-184c-0.4,0-0.8-0.4-0.8-0.8l0,0v-10.1
                             c0-0.4,0.4-0.8,0.8-0.8l0,0h10.2c0.4,0,0.8,0.4,0.8,0.8l0,0V-270.5z M-173-284.8c0,0.4-0.4,0.8-0.8,0.8l0,0H-184
                             c-0.4,0-0.8-0.4-0.8-0.8l0,0V-295c0-0.4,0.4-0.8,0.8-0.8l0,0h10.2c0.4,0,0.8,0.4,0.8,0.8l0,0V-284.8z M-173-299.2
-                            c0,0.4-0.4,0.8-0.8,0.8H-184c-0.4,0-0.8-0.4-0.8-0.8v-10.1c0-0.4,0.4-0.8,0.8-0.8h10.2c0.4,0,0.8,0.4,0.8,0.8l0,0V-299.2z"/>
-                        <path id="Path_969_1_" class="st2" d="M-131.9-227h-5c-0.1-3.2-0.7-6.4-1.7-9.5c-0.7-2.3-2.1-4.4-3.8-6.1c-1.7-1.6-3.7-2.6-6-3.2
+                            c0,0.4-0.4,0.8-0.8,0.8H-184c-0.4,0-0.8-0.4-0.8-0.8v-10.1c0-0.4,0.4-0.8,0.8-0.8h10.2c0.4,0,0.8,0.4,0.8,0.8l0,0V-299.2z"
+              />
+              <path
+                id="Path_969_1_"
+                class="st2"
+                d="M-131.9-227h-5c-0.1-3.2-0.7-6.4-1.7-9.5c-0.7-2.3-2.1-4.4-3.8-6.1c-1.7-1.6-3.7-2.6-6-3.2
                             c-2.7-0.6-5.4-0.9-8.2-0.9c-3,0-5.5,0-7.3,0.2c-1.4,0.1-2.8,0.3-4.2,0.6c-0.7,0.1-1.4,0.5-1.9,1.1c-0.3,0.5-0.5,1.1-0.5,1.7v23.5
                             h-17.3v-23.5c0-0.6-0.1-1.2-0.4-1.7c-0.4-0.6-1-1-1.7-1.1c-1.2-0.3-2.4-0.5-3.7-0.6c-1.6-0.1-3.7-0.2-6.3-0.2
                             c-2.7,0-5.4,0.1-8.1,0.4c-2.4,0.2-4.8,1-6.8,2.3c-2.1,1.5-3.7,3.5-4.7,5.8c-1.1,2.7-1.7,6.4-1.8,11.2h-4.6l1.2-25.7h91.6
-                            L-131.9-227z"/>
-                    </g>
-                    <g id="Group_166_1_" transform="translate(11.187 75.977)">
-                        <path id="Path_970_1_" class="st2" d="M-139.7-317.2h6.4l-2.6,34h-5.2c-1.8-8.3-5.4-14.7-10.7-19.5c-5.2-4.7-12-7.2-19.1-7.1
+                            L-131.9-227z"
+              />
+            </g>
+            <g id="Group_166_1_" transform="translate(11.187 75.977)">
+              <path
+                id="Path_970_1_"
+                class="st2"
+                d="M-139.7-317.2h6.4l-2.6,34h-5.2c-1.8-8.3-5.4-14.7-10.7-19.5c-5.2-4.7-12-7.2-19.1-7.1
                             c-4.8-0.1-9.5,1-13.7,3.2c-4,2.1-7.5,5.2-10.1,9c-2.9,4.3-5.1,9.1-6.3,14.2c-1.5,6.2-2.2,12.5-2.2,18.8c0,13.9,2.8,24.5,8.3,32
                             s13.7,11.2,24.5,11.2c8.7,0,15.9-2.4,21.6-7.2c5.7-4.8,9.8-12,12.2-21.6h5.7v36.3h-6l-1.9-10.6c-9.6,8-21.2,11.9-34.9,11.9
                             c-7.3,0.1-14.6-1.1-21.6-3.6c-6.1-2.2-11.8-5.7-16.5-10.3c-4.5-4.5-8.1-10-10.4-16.1c-2.6-6.8-3.8-14-3.7-21.2
                             c-0.1-7.6,1.2-15.2,3.9-22.3c2.5-6.5,6.2-12.4,11-17.3s10.6-8.7,17-11.2c7-2.7,14.4-4.1,21.9-4c5.1,0,10.1,0.7,14.9,2.3
-                            c5.3,1.8,10.3,4.3,15,7.4L-139.7-317.2z"/>
-                    </g>
-                    <path id="Path_971_1_" class="st2" d="M14.8-136.6v-5.4c2.3,0,4.7-0.3,7-0.7c1.6-0.3,3.1-1.1,4.2-2.3c1.1-1.3,1.8-2.9,2-4.6
+                            c5.3,1.8,10.3,4.3,15,7.4L-139.7-317.2z"
+              />
+            </g>
+            <path
+              id="Path_971_1_"
+              class="st2"
+              d="M14.8-136.6v-5.4c2.3,0,4.7-0.3,7-0.7c1.6-0.3,3.1-1.1,4.2-2.3c1.1-1.3,1.8-2.9,2-4.6
                         c0.4-2.6,0.6-5.1,0.5-7.7v-61.9c0-2.5-0.1-5.1-0.4-7.6c-0.2-1.6-0.7-3.2-1.7-4.6c-0.9-1.1-2.2-1.9-3.6-2.3c-2-0.5-3.9-0.8-5.9-0.9
                         v-5.4h49.6c7.9-0.1,15.7,1.3,23.1,4c6.8,2.5,13,6.3,18.3,11.1c5.1,4.7,9.2,10.5,12,16.9c2.9,6.7,4.4,14,4.3,21.3
                         c0.1,6.9-1.3,13.8-4,20.2c-2.6,6-6.5,11.4-11.3,15.8c-5.1,4.5-11,8-17.4,10.3c-7.2,2.5-14.7,3.8-22.3,3.7L14.8-136.6z M50-231.7
                         c-1.1-0.1-2.1,0.6-2.2,1.7c0,0.2,0,0.4,0,0.6v69.3c0,5.2,1.6,9,4.7,11.5s8,3.8,14.5,3.8c11.4,0,20.2-3.5,26.3-10.6
                         c6.1-7.1,9.2-17.3,9.2-30.8c0.1-6.5-0.7-12.9-2.5-19.2c-1.4-5.2-3.9-10-7.2-14.3c-3.1-3.8-7-6.9-11.4-8.9
-                        c-4.7-2.1-9.9-3.2-15.1-3.1H50z"/>
-                </g>
-                <path class="st0" d="M-129-162.3"/>
-            </svg>
-
-
-            <ul class="navbar">
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/Team">Team</a></li>
-                <li><a href="/materials">Materials</a></li>
-                <li class="join-btn"><a href="https://forms.gle/mRt3DebXJkga2xmk8">Join</a></li>
-            </ul>
-        </div>
-
-        <div class="hero-block">
-            <h1 class="title">Crossing the Divide</h1>
-            <p>Our organization aims to enrich political discussion in high schools by exposing students to a variety of perspectives and arguments.</p>
-            <a class="hero-join" href="https://forms.gle/mRt3DebXJkga2xmk8">Join</a>
-        </div>
-
-        <svg xmlns="http://www.w3.org/2000/svg" id="red-blob" xmlns:xlink="http://www.w3.org/1999/xlink" width="713.135" height="744.491" viewBox="0 0 713.135 744.491">
-            <defs>
-              <filter id="Red_blob" x="0" y="0" width="713.135" height="744.491" filterUnits="userSpaceOnUse">
-                <feOffset dx="8" dy="8" input="SourceAlpha"/>
-                <feGaussianBlur stdDeviation="12.5" result="blur"/>
-                <feFlood flood-opacity="0.161"/>
-                <feComposite operator="in" in2="blur"/>
-                <feComposite in="SourceGraphic"/>
-              </filter>
-            </defs>
-            <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Red_blob)">
-              <path id="Red_blob-2" data-name="Red blob" d="M6711.587,848.637c-275.481-59.672-387.086-66.336-429,31s-4.108,190.1-136,305-17.039,278.232,58,289,183.3-95.669,273-179,135.066,309.158,206-69S6711.587,848.637,6711.587,848.637Z" transform="translate(-6056.83 -775.4)" fill="#b30c33"/>
-            </g>
+                        c-4.7-2.1-9.9-3.2-15.1-3.1H50z"
+            />
+          </g>
+          <path class="st0" d="M-129-162.3" />
         </svg>
 
-        <div class="second-cont">
-            <div class="second">
-                <svg xmlns="http://www.w3.org/2000/svg" id="polarization-graph" width="376.203" height="1178.635" viewBox="0 0 376.203 1178.635">
-                    <g id="Group_155" data-name="Group 155" transform="translate(0.227 13.983)">
-                      <path id="Path_954" data-name="Path 954" d="M346.956,682.439l-18.013-10.6-22.251-46.622-12.715-16.953-22.251-57.217L235.7,502.31l-16.953-4.238L196.5,446.152H164.206l-12.6,25.167L160.47,479h37.085l18.013,90.065,37.085,99.6,19.072,4.238,18.013,28.609,37.085,25.43,34.7,4.238h3.234l.214-23.311Z" transform="translate(8.881 27.416)" fill="#b30c33"/>
-                      <path id="Path_955" data-name="Path 955" d="M41.113,700.678l18.013-33.907L78.2,669.95l38.91-86.356L133.3,515.251l16.953-24.37,10.21-20.4-7.032-6.094-22.251-4.238-16.953,15.894-19.072,5.3L78.2,493,59.126,529.025,40.054,607.434,19.921,626.507,3.028,672.683v57.663l17.953-19.073Z" transform="translate(0.029 28.25)" fill="#012765"/>
-                      <path id="Path_956" data-name="Path 956" d="M298.592,700.1l-18.013-28.609-19.072-4.238-37.085-99.6-18.013-90.065H169.323L160.46,469.9l-10.21,20.4L133.3,514.67l-16.188,68.343L78.2,669.369,59.126,666.19,41.113,700.1l-20.132,10.6L3.028,729.765H370.374l-34.7-4.238Z" transform="translate(0.029 28.831)" fill="#012765"/>
-                      <path id="Path_957" data-name="Path 957" d="M58.585,1076.772l18.013-3.179,20.132-32.847,18.013-10.6,18.013-55.1L153.947,958.1l15.894-26.49,36.026-9.536.352-.869-.352-1.25L168.781,904.06l-18.013-47.681L132.756,847.9,114.1,869.094H103.087L59.644,884.988,38.453,917.835,20.44,931.609,2.849,970.284v142.4l36.664-13.656Z" transform="translate(0.018 51.354)" fill="#012765"/>
-                      <path id="Path_958" data-name="Path 958" d="M2.549,1097.909h.317v-.118Z" transform="translate(0 66.243)" fill="#e82142" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
-                      <path id="Path_959" data-name="Path 959" d="M343.832,934.775,325.819,921l-38.145-51.92L268.6,865.9l-18.013,19.072L233.635,872.26,212.444,876.5l-17.661,43.634L213.5,986.695l18.013,9.536,18.013,54.039,20.132,11.655,19.073,30.728,20.132,4.238,19.5,14.834h33.027l1.516-99.6Z" transform="translate(11.454 52.426)" fill="#b30c33"/>
-                      <path id="Path_960" data-name="Path 960" d="M300.17,1089.6,281.1,1058.876l-20.132-11.655-18.013-54.039-18.013-9.536-18.721-66.563-.352.869-36.026,9.536-15.894,26.49L132.756,970.93l-18.013,55.1-18.013,10.6L76.6,1069.472l-18.013,3.179L39.512,1094.9,2.849,1108.558v.118H339.8l-19.5-14.834Z" transform="translate(0.018 55.476)" fill="#b30c33"/>
-                      <path id="Path_961" data-name="Path 961" d="M351.685,331.9v1.066h1.727Z" transform="translate(20.803 20.608)" fill="blue" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
-                      <path id="Path_962" data-name="Path 962" d="M39.77,341.215l19.072-36.026L75.8,300.951l19.072-34.966,19.072-12.715,16.953-49.8,19.072-12.715,19.072-59.337,44.5-32.847,1.638-1.965-.578-1.214-9.536-19.072L167.98,68.9,148.907,80.558,133.014,95.392l-19.072,39.2L94.869,152.609,76.856,232.078,58.843,246.912,37.651,295.653l-15.894,6.357-19.072,30.2v16.424H4.8L20.7,344.394Z" transform="translate(0.008 4.939)" fill="#012765"/>
-                      <path id="Path_963" data-name="Path 963" d="M230.2,144.239l11.655,39.2,8.477,25.43,18.013,10.6,19.072,65.694,18.013,5.3L324.5,324.368l36.026,22.244V306.355l-10.6-46.622-7.417-37.085-20.132-20.132-14.834-25.43L286.36,163.311l-16.953-51.92L250.334,90.2l-14.386-5.3H212.189l-8.958,10.75,10.018,21.038Z" transform="translate(11.957 5.892)" fill="#b30c33"/>
-                      <path id="Path_964" data-name="Path 964" d="M336.335,323.764l-19.073-33.907-18.013-5.3-19.072-65.694-18.013-10.6-8.477-25.43-11.655-39.2-16.953-27.549L215.06,95.048l-1.638,1.965-44.5,32.847L149.848,189.2l-19.072,12.715-16.953,49.8L94.75,264.427,75.677,299.393l-16.953,4.238L39.651,339.657l-19.072,3.179L4.685,347.074H372.36v-1.066Z" transform="translate(0.127 6.496)" fill="#b30c33"/>
-                      <g id="Group_154" data-name="Group 154" transform="translate(2.711 -13.983)">
-                        <line id="Line_1" data-name="Line 1" y2="299.862" transform="translate(148.628 472.717)" fill="#e82142" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
-                        <line id="Line_2" data-name="Line 2" y2="299.862" transform="translate(185.743 472.717)" fill="#e82142" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
-                        <text id="_2004" data-name="2004" transform="translate(0.552 457.085)" font-size="49" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">2004</tspan></text>
-                        <text id="Median_Republican" data-name="Median Republican" transform="translate(191.241 471.007)" font-size="10" font-family="LibreBaskerville-Regular, Libre Baskerville"><tspan x="0" y="10">Median Republican</tspan></text>
-                        <text id="Median_Democrat" data-name="Median Democrat" transform="translate(41.888 471.008)" font-size="10" font-family="LibreBaskerville-Regular, Libre Baskerville"><tspan x="0" y="10">Median Democrat</tspan></text>
-                        <line id="Line_3" data-name="Line 3" y2="299.862" transform="translate(167.707 878.095)" fill="#e82142" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
-                        <line id="Line_4" data-name="Line 4" y2="299.862" transform="translate(204.822 878.095)" fill="#e82142" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
-                        <text id="_2014" data-name="2014" transform="translate(0 862.641)" font-size="49" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">2014</tspan></text>
-                        <text id="Median_Republican-2" data-name="Median Republican" transform="translate(210.272 876.571)" font-size="10" font-family="LibreBaskerville-Regular, Libre Baskerville"><tspan x="0" y="10">Median Republican</tspan></text>
-                        <text id="Median_Democrat-2" data-name="Median Democrat" transform="translate(60.919 876.571)" font-size="10" font-family="LibreBaskerville-Regular, Libre Baskerville"><tspan x="0" y="10">Median Democrat</tspan></text>
-                        <line id="Line_5" data-name="Line 5" x2="0.196" y2="299.862" transform="translate(185.743 67.692)" fill="#e82142" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
-                        <line id="Line_6" data-name="Line 6" y2="299.862" transform="translate(223.122 67.692)" fill="#e82142" stroke="#000" stroke-miterlimit="10" stroke-width="4"/>
-                        <text id="_1994" data-name="1994" transform="translate(0.248 51)" font-size="49" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">1994</tspan></text>
-                        <text id="Median_Republican-3" data-name="Median Republican" transform="translate(227.772 66.436)" font-size="10" font-family="LibreBaskerville-Regular, Libre Baskerville"><tspan x="0" y="10">Median Republican</tspan></text>
-                        <text id="Median_Democrat-3" data-name="Median Democrat" transform="translate(78.418 66.436)" font-size="10" font-family="LibreBaskerville-Regular, Libre Baskerville"><tspan x="0" y="10">Median Democrat</tspan></text>
-                      </g>
-                    </g>
-                </svg> 
+        <ul class="navbar">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/Team">Team</a></li>
+          <li><a href="/materials">Materials</a></li>
+          <li class="join-btn">
+            <a href="https://forms.gle/mRt3DebXJkga2xmk8">Join</a>
+          </li>
+        </ul>
+      </div>
 
-                <div class="second-block">
-                    <h1>Who we Are</h1>
-                    <p>Political polarization is at an all-time high, and the division has only grown over recent years. We wish to lower this troubling trend by providing a place where one can discuss their ideas with others and understand the other side.</p>
-                </div>
-            </div>
+      <div class="hero-block">
+        <h1 class="title">Crossing the Divide</h1>
+        <p>
+          Our organization aims to enrich political discussion in high schools
+          by exposing students to a variety of perspectives and arguments.
+        </p>
+        <a class="hero-join" href="https://forms.gle/mRt3DebXJkga2xmk8">Join</a>
+      </div>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        id="red-blob"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="713.135"
+        height="744.491"
+        viewBox="0 0 713.135 744.491"
+      >
+        <defs>
+          <filter
+            id="Red_blob"
+            x="0"
+            y="0"
+            width="713.135"
+            height="744.491"
+            filterUnits="userSpaceOnUse"
+          >
+            <feOffset dx="8" dy="8" input="SourceAlpha" />
+            <feGaussianBlur stdDeviation="12.5" result="blur" />
+            <feFlood flood-opacity="0.161" />
+            <feComposite operator="in" in2="blur" />
+            <feComposite in="SourceGraphic" />
+          </filter>
+        </defs>
+        <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Red_blob)">
+          <path
+            id="Red_blob-2"
+            data-name="Red blob"
+            d="M6711.587,848.637c-275.481-59.672-387.086-66.336-429,31s-4.108,190.1-136,305-17.039,278.232,58,289,183.3-95.669,273-179,135.066,309.158,206-69S6711.587,848.637,6711.587,848.637Z"
+            transform="translate(-6056.83 -775.4)"
+            fill="#b30c33"
+          />
+        </g>
+      </svg>
+
+      <div class="second-cont">
+        <div class="second">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            id="polarization-graph"
+            width="376.203"
+            height="1178.635"
+            viewBox="0 0 376.203 1178.635"
+          >
+            <g
+              id="Group_155"
+              data-name="Group 155"
+              transform="translate(0.227 13.983)"
+            >
+              <path
+                id="Path_954"
+                data-name="Path 954"
+                d="M346.956,682.439l-18.013-10.6-22.251-46.622-12.715-16.953-22.251-57.217L235.7,502.31l-16.953-4.238L196.5,446.152H164.206l-12.6,25.167L160.47,479h37.085l18.013,90.065,37.085,99.6,19.072,4.238,18.013,28.609,37.085,25.43,34.7,4.238h3.234l.214-23.311Z"
+                transform="translate(8.881 27.416)"
+                fill="#b30c33"
+              />
+              <path
+                id="Path_955"
+                data-name="Path 955"
+                d="M41.113,700.678l18.013-33.907L78.2,669.95l38.91-86.356L133.3,515.251l16.953-24.37,10.21-20.4-7.032-6.094-22.251-4.238-16.953,15.894-19.072,5.3L78.2,493,59.126,529.025,40.054,607.434,19.921,626.507,3.028,672.683v57.663l17.953-19.073Z"
+                transform="translate(0.029 28.25)"
+                fill="#012765"
+              />
+              <path
+                id="Path_956"
+                data-name="Path 956"
+                d="M298.592,700.1l-18.013-28.609-19.072-4.238-37.085-99.6-18.013-90.065H169.323L160.46,469.9l-10.21,20.4L133.3,514.67l-16.188,68.343L78.2,669.369,59.126,666.19,41.113,700.1l-20.132,10.6L3.028,729.765H370.374l-34.7-4.238Z"
+                transform="translate(0.029 28.831)"
+                fill="#012765"
+              />
+              <path
+                id="Path_957"
+                data-name="Path 957"
+                d="M58.585,1076.772l18.013-3.179,20.132-32.847,18.013-10.6,18.013-55.1L153.947,958.1l15.894-26.49,36.026-9.536.352-.869-.352-1.25L168.781,904.06l-18.013-47.681L132.756,847.9,114.1,869.094H103.087L59.644,884.988,38.453,917.835,20.44,931.609,2.849,970.284v142.4l36.664-13.656Z"
+                transform="translate(0.018 51.354)"
+                fill="#012765"
+              />
+              <path
+                id="Path_958"
+                data-name="Path 958"
+                d="M2.549,1097.909h.317v-.118Z"
+                transform="translate(0 66.243)"
+                fill="#e82142"
+                stroke="#000"
+                stroke-miterlimit="10"
+                stroke-width="1"
+              />
+              <path
+                id="Path_959"
+                data-name="Path 959"
+                d="M343.832,934.775,325.819,921l-38.145-51.92L268.6,865.9l-18.013,19.072L233.635,872.26,212.444,876.5l-17.661,43.634L213.5,986.695l18.013,9.536,18.013,54.039,20.132,11.655,19.073,30.728,20.132,4.238,19.5,14.834h33.027l1.516-99.6Z"
+                transform="translate(11.454 52.426)"
+                fill="#b30c33"
+              />
+              <path
+                id="Path_960"
+                data-name="Path 960"
+                d="M300.17,1089.6,281.1,1058.876l-20.132-11.655-18.013-54.039-18.013-9.536-18.721-66.563-.352.869-36.026,9.536-15.894,26.49L132.756,970.93l-18.013,55.1-18.013,10.6L76.6,1069.472l-18.013,3.179L39.512,1094.9,2.849,1108.558v.118H339.8l-19.5-14.834Z"
+                transform="translate(0.018 55.476)"
+                fill="#b30c33"
+              />
+              <path
+                id="Path_961"
+                data-name="Path 961"
+                d="M351.685,331.9v1.066h1.727Z"
+                transform="translate(20.803 20.608)"
+                fill="blue"
+                stroke="#000"
+                stroke-miterlimit="10"
+                stroke-width="1"
+              />
+              <path
+                id="Path_962"
+                data-name="Path 962"
+                d="M39.77,341.215l19.072-36.026L75.8,300.951l19.072-34.966,19.072-12.715,16.953-49.8,19.072-12.715,19.072-59.337,44.5-32.847,1.638-1.965-.578-1.214-9.536-19.072L167.98,68.9,148.907,80.558,133.014,95.392l-19.072,39.2L94.869,152.609,76.856,232.078,58.843,246.912,37.651,295.653l-15.894,6.357-19.072,30.2v16.424H4.8L20.7,344.394Z"
+                transform="translate(0.008 4.939)"
+                fill="#012765"
+              />
+              <path
+                id="Path_963"
+                data-name="Path 963"
+                d="M230.2,144.239l11.655,39.2,8.477,25.43,18.013,10.6,19.072,65.694,18.013,5.3L324.5,324.368l36.026,22.244V306.355l-10.6-46.622-7.417-37.085-20.132-20.132-14.834-25.43L286.36,163.311l-16.953-51.92L250.334,90.2l-14.386-5.3H212.189l-8.958,10.75,10.018,21.038Z"
+                transform="translate(11.957 5.892)"
+                fill="#b30c33"
+              />
+              <path
+                id="Path_964"
+                data-name="Path 964"
+                d="M336.335,323.764l-19.073-33.907-18.013-5.3-19.072-65.694-18.013-10.6-8.477-25.43-11.655-39.2-16.953-27.549L215.06,95.048l-1.638,1.965-44.5,32.847L149.848,189.2l-19.072,12.715-16.953,49.8L94.75,264.427,75.677,299.393l-16.953,4.238L39.651,339.657l-19.072,3.179L4.685,347.074H372.36v-1.066Z"
+                transform="translate(0.127 6.496)"
+                fill="#b30c33"
+              />
+              <g
+                id="Group_154"
+                data-name="Group 154"
+                transform="translate(2.711 -13.983)"
+              >
+                <line
+                  id="Line_1"
+                  data-name="Line 1"
+                  y2="299.862"
+                  transform="translate(148.628 472.717)"
+                  fill="#e82142"
+                  stroke="#000"
+                  stroke-miterlimit="10"
+                  stroke-width="4"
+                />
+                <line
+                  id="Line_2"
+                  data-name="Line 2"
+                  y2="299.862"
+                  transform="translate(185.743 472.717)"
+                  fill="#e82142"
+                  stroke="#000"
+                  stroke-miterlimit="10"
+                  stroke-width="4"
+                />
+                <text
+                  id="_2004"
+                  data-name="2004"
+                  transform="translate(0.552 457.085)"
+                  font-size="49"
+                  font-family="Poppins-Bold, Poppins"
+                  font-weight="700"
+                >
+                  <tspan x="0" y="0">2004</tspan>
+                </text>
+                <text
+                  id="Median_Republican"
+                  data-name="Median Republican"
+                  transform="translate(191.241 471.007)"
+                  font-size="10"
+                  font-family="LibreBaskerville-Regular, Libre Baskerville"
+                >
+                  <tspan x="0" y="10">Median Republican</tspan>
+                </text>
+                <text
+                  id="Median_Democrat"
+                  data-name="Median Democrat"
+                  transform="translate(41.888 471.008)"
+                  font-size="10"
+                  font-family="LibreBaskerville-Regular, Libre Baskerville"
+                >
+                  <tspan x="0" y="10">Median Democrat</tspan>
+                </text>
+                <line
+                  id="Line_3"
+                  data-name="Line 3"
+                  y2="299.862"
+                  transform="translate(167.707 878.095)"
+                  fill="#e82142"
+                  stroke="#000"
+                  stroke-miterlimit="10"
+                  stroke-width="4"
+                />
+                <line
+                  id="Line_4"
+                  data-name="Line 4"
+                  y2="299.862"
+                  transform="translate(204.822 878.095)"
+                  fill="#e82142"
+                  stroke="#000"
+                  stroke-miterlimit="10"
+                  stroke-width="4"
+                />
+                <text
+                  id="_2014"
+                  data-name="2014"
+                  transform="translate(0 862.641)"
+                  font-size="49"
+                  font-family="Poppins-Bold, Poppins"
+                  font-weight="700"
+                >
+                  <tspan x="0" y="0">2014</tspan>
+                </text>
+                <text
+                  id="Median_Republican-2"
+                  data-name="Median Republican"
+                  transform="translate(210.272 876.571)"
+                  font-size="10"
+                  font-family="LibreBaskerville-Regular, Libre Baskerville"
+                >
+                  <tspan x="0" y="10">Median Republican</tspan>
+                </text>
+                <text
+                  id="Median_Democrat-2"
+                  data-name="Median Democrat"
+                  transform="translate(60.919 876.571)"
+                  font-size="10"
+                  font-family="LibreBaskerville-Regular, Libre Baskerville"
+                >
+                  <tspan x="0" y="10">Median Democrat</tspan>
+                </text>
+                <line
+                  id="Line_5"
+                  data-name="Line 5"
+                  x2="0.196"
+                  y2="299.862"
+                  transform="translate(185.743 67.692)"
+                  fill="#e82142"
+                  stroke="#000"
+                  stroke-miterlimit="10"
+                  stroke-width="4"
+                />
+                <line
+                  id="Line_6"
+                  data-name="Line 6"
+                  y2="299.862"
+                  transform="translate(223.122 67.692)"
+                  fill="#e82142"
+                  stroke="#000"
+                  stroke-miterlimit="10"
+                  stroke-width="4"
+                />
+                <text
+                  id="_1994"
+                  data-name="1994"
+                  transform="translate(0.248 51)"
+                  font-size="49"
+                  font-family="Poppins-Bold, Poppins"
+                  font-weight="700"
+                >
+                  <tspan x="0" y="0">1994</tspan>
+                </text>
+                <text
+                  id="Median_Republican-3"
+                  data-name="Median Republican"
+                  transform="translate(227.772 66.436)"
+                  font-size="10"
+                  font-family="LibreBaskerville-Regular, Libre Baskerville"
+                >
+                  <tspan x="0" y="10">Median Republican</tspan>
+                </text>
+                <text
+                  id="Median_Democrat-3"
+                  data-name="Median Democrat"
+                  transform="translate(78.418 66.436)"
+                  font-size="10"
+                  font-family="LibreBaskerville-Regular, Libre Baskerville"
+                >
+                  <tspan x="0" y="10">Median Democrat</tspan>
+                </text>
+              </g>
+            </g>
+          </svg>
+
+          <div class="second-block">
+            <h1>Who we Are</h1>
+            <p>
+              Political polarization is at an all-time high, and the division
+              has only grown over recent years. We wish to lower this troubling
+              trend by providing a place where one can discuss their ideas with
+              others and understand the other side.
+            </p>
+          </div>
         </div>
-          
+      </div>
+
+      <div class="footer">
+          <h1>More To Come</h1>
+      </div>
     </div>
-
-
-    
-</body>
-
+  </body>
 </html>

@@ -51,7 +51,7 @@ body {
 .top-section #svg-logo {
   width: 28em;
   height: 100%;
-  margin: -4.4em 0 0 -4em;
+  margin: -3.4em 0 0 -4.6em;
   -webkit-filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
           filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
 }

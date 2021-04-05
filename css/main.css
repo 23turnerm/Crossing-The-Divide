@@ -7,12 +7,12 @@ body {
   border-radius: border-box;
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   overflow-x: hidden;
 }
 
@@ -35,6 +35,8 @@ body {
   width: 28em;
   height: 100%;
   margin: -4.4em 0 0 -4em;
+  -webkit-filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
+          filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
 }
 
 .top-section .navbar {
@@ -64,9 +66,13 @@ body {
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
+  cursor: pointer;
+}
+
+.top-section .navbar li a {
+  color: black;
   font-size: 1.4em;
   font-weight: 500;
-  cursor: pointer;
 }
 
 .top-section .navbar .join-btn {
@@ -79,8 +85,14 @@ body {
   cursor: pointer;
 }
 
+.top-section .navbar .join-btn a {
+  color: white;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
 .hero-block {
-  margin: 8em 0 0 10em;
+  margin: 11em 0 0 11em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -116,6 +128,15 @@ body {
   cursor: pointer;
   -webkit-box-shadow: 0.4em 0.4em 1.5em #b4b4b4;
           box-shadow: 0.4em 0.4em 1.5em #b4b4b4;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+
+.hero-block .hero-join:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 #red-blob {
@@ -124,6 +145,44 @@ body {
   right: 0px;
   width: 35em;
   margin: -15em -12em 0 0;
+  -webkit-filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
+          filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
+}
+
+.second-cont {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.second-cont .second {
+  width: calc(100% - 22em);
+  margin: 25em 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.second-cont .second #polarization-graph {
+  height: 100%;
+  width: 16em;
 }
 
 a {

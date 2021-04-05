@@ -14,8 +14,8 @@ body {
     border-radius: border-box;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    display: flex;
     justify-content: center;
+    display: flex;
     overflow-x: hidden;
 }
 
@@ -33,6 +33,7 @@ body {
         width: 28em;
         height: 100%;
         margin: -4.4em 0 0 -4em;
+        filter: drop-shadow($mainshadow);
     }
     
     .navbar {
@@ -48,10 +49,13 @@ body {
         li {
             margin: 0 2.4em 0 0;
             height: min-content;
-            font-size: 1.4em;
-            font-weight: 500;
             cursor: pointer;
 
+            a {
+                color: black;
+                font-size: 1.4em;
+                font-weight: 500;
+            }
         }
         .join-btn {
             padding: 0.3em 2em;
@@ -60,14 +64,17 @@ body {
             border-radius: 2em;
             box-shadow: $mainshadow;
             cursor: pointer;
-
+            a {
+                color: white;
+                font-size: 1.4em;
+                font-weight: 500;
+            }
         }
-
     }
-
 }
+
 .hero-block {
-    margin: 8em 0 0 10em;
+    margin: 11em 0 0 11em;
     display: flex;
     flex-direction: column;
 
@@ -92,6 +99,11 @@ body {
         border-radius: 2em;
         cursor: pointer;
         box-shadow: $mainshadow;
+        transition: transform 0.2s ease-in-out;
+
+        &:hover {
+            transform: scale(1.02);
+        }
     }
 }
 
@@ -101,6 +113,33 @@ body {
     right: 0px;
     width: 35em;
     margin: -15em -12em 0 0;
+    filter: drop-shadow($mainshadow);
+}
+
+
+.second-cont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+    .second {
+        width: calc(100% - 22em);
+        margin: 25em 0 0 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        #polarization-graph {
+            height: 100%;
+            width: 16em;
+        }
+
+        
+    }
+
 }
 
 a {

@@ -16,7 +16,7 @@ html ::selection {
 body {
   border-radius: border-box;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -128,7 +128,7 @@ body {
 
 .hero-block p {
   width: 25em;
-  margin: .6em 0 0 .2em;
+  margin: 0.6em 0 0 0.2em;
 }
 
 .hero-block .hero-join {
@@ -139,7 +139,7 @@ body {
   margin: 1em 0 0 0;
   font-size: 1.4em;
   font-weight: 500;
-  background-color: #B30C33;
+  background-color: #b30c33;
   color: white;
   border-radius: 2em;
   cursor: pointer;
@@ -226,14 +226,14 @@ body {
 
 .second-cont .second .second-block p {
   width: 25em;
-  margin: .6em 0 0 .2em;
+  margin: 0.6em 0 0 0.2em;
 }
 
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #EFEFEF;
+  background-color: #272b42;
   width: 100%;
   margin: 20em 0 0 0;
   height: 15em;
@@ -246,7 +246,7 @@ body {
 }
 
 .footer p {
-  color: black;
+  color: #c0c1ca;
   font-weight: bold;
 }
 
@@ -256,13 +256,13 @@ a {
 }
 
 h1 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   font-weight: bold;
   font-size: 4.5em;
 }
 
 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 1.4em;
 }

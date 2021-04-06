@@ -1,196 +1,193 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Poppins:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Poppins:wght@300;400;500;700&display=swap");
 $blue: #012765;
-$red: #B30C33;
-$offwhite: #EFEFEF;
+$red: #b30c33;
+$offwhite: #efefef;
 $mainshadow: 0.4em 0.4em 1.5em #b4b4b4;
+$greypurple: #c0c1ca;
+$purple: #272b42;
+$darkpurple: #181b29;
 
 html {
-    display: flexbox;
-    ::selection {
-        color: white;
-        background-color: black;
-    }
+  display: flexbox;
+  ::selection {
+    color: white;
+    background-color: black;
+  }
 }
 
-
-
 body {
-    border-radius: border-box;
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    justify-content: center;
-    display: flex;
-    overflow-x: hidden;
+  border-radius: border-box;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  display: flex;
+  overflow-x: hidden;
 }
 
 .center-container {
-    width: 100vw;
-    max-width: 1920px;
-    display: flex;
-    flex-direction: column;
+  width: 100vw;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
 }
 
 .top-section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  #svg-logo {
+    width: 28em;
+    height: 100%;
+    margin: -3.4em 0 0 -5em;
+    filter: drop-shadow($mainshadow);
+  }
+
+  .navbar {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 2em 3em 0 0;
+    margin: 0;
+    height: min-content;
+    width: min-content;
+    align-items: center;
 
-    #svg-logo {
-        width: 28em;
-        height: 100%;
-        margin: -3.4em 0 0 -5em;
-        filter: drop-shadow($mainshadow);
+    li {
+      margin: 0 2.4em 0 0;
+      height: min-content;
+      cursor: pointer;
+
+      a {
+        color: black;
+        font-size: 1.4em;
+        font-weight: 500;
+      }
     }
-    
-    .navbar {
-        display: flex;
-        flex-direction: row;
-        list-style-type: none;
-        padding: 2em 3em 0 0;
-        margin: 0;
-        height: min-content;
-        width: min-content;
-        align-items: center;
-
-        li {
-            margin: 0 2.4em 0 0;
-            height: min-content;
-            cursor: pointer;
-
-            a {
-                color: black;
-                font-size: 1.4em;
-                font-weight: 500;
-            }
-        }
-        .join-btn {
-            padding: 0.3em 2em;
-            margin: 0;
-            background-color: $blue;
-            border-radius: 2em;
-            box-shadow: $mainshadow;
-            cursor: pointer;
-            a {
-                color: white;
-                font-size: 1.4em;
-                font-weight: 500;
-            }
-        }
+    .join-btn {
+      padding: 0.3em 2em;
+      margin: 0;
+      background-color: $blue;
+      border-radius: 2em;
+      box-shadow: $mainshadow;
+      cursor: pointer;
+      a {
+        color: white;
+        font-size: 1.4em;
+        font-weight: 500;
+      }
     }
+  }
 }
 
 .hero-block {
-    margin: 13em 0 0 11em;
-    display: flex;
-    flex-direction: column;
+  margin: 13em 0 0 11em;
+  display: flex;
+  flex-direction: column;
 
-    .title {
-        margin: 0;
-        width: fit-content;
+  .title {
+    margin: 0;
+    width: fit-content;
+  }
+
+  p {
+    width: 25em;
+    margin: 0.6em 0 0 0.2em;
+  }
+
+  .hero-join {
+    width: fit-content;
+    padding: 0.3em 2em;
+    margin: 1em 0 0 0;
+    font-size: 1.4em;
+    font-weight: 500;
+    background-color: $red;
+    color: white;
+    border-radius: 2em;
+    cursor: pointer;
+    box-shadow: $mainshadow;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.02);
     }
-
-    p {
-        width: 25em;
-        margin: .6em 0 0 .2em;
-    }
-
-    .hero-join {
-        width: fit-content;
-        padding: 0.3em 2em;
-        margin: 1em 0 0 0;
-        font-size: 1.4em;
-        font-weight: 500;
-        background-color: $red;
-        color: white;
-        border-radius: 2em;
-        cursor: pointer;
-        box-shadow: $mainshadow;
-        transition: transform 0.2s ease-in-out;
-
-        &:hover {
-            transform: scale(1.02);
-        }
-    }
+  }
 }
 
 #red-blob {
-    align-self: flex-end;
-    z-index: -2;
-    margin: -10em -10em;
-    width: 35em;
-    filter: drop-shadow($mainshadow);
+  align-self: flex-end;
+  z-index: -2;
+  margin: -10em -10em;
+  width: 35em;
+  filter: drop-shadow($mainshadow);
 }
 
-
 .second-cont {
-    width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  .second {
+    width: calc(100% - 22em);
+    margin: 15em 0 0 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    margin: 0;
-    padding: 0;
 
-    .second {
-        width: calc(100% - 22em);
-        margin: 15em 0 0 0;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-
-        #polarization-graph {
-            height: 100%;
-            width: 18em;
-            filter: drop-shadow(0.2em 0.2em .8em #d3d3d3);
-            user-select: none;
-        }
-
-        .second-block {
-            height: fit-content;
-            h1 {
-                margin: 0;
-                width: fit-content;
-            }
-
-            p {
-                width: 25em;
-                margin: .6em 0 0 .2em;
-            }
-        }
-
-        
+    #polarization-graph {
+      height: 100%;
+      width: 18em;
+      filter: drop-shadow(0.2em 0.2em 0.8em #d3d3d3);
+      user-select: none;
     }
 
+    .second-block {
+      height: fit-content;
+      h1 {
+        margin: 0;
+        width: fit-content;
+      }
+
+      p {
+        width: 25em;
+        margin: 0.6em 0 0 0.2em;
+      }
+    }
+  }
 }
 
 .footer {
-    display: flex;
-    background-color: $offwhite;
-    width: 100%;
-    margin: 20em 0 0 0;
-    height: 15em;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  background-color: $purple;
+  width: 100%;
+  margin: 20em 0 0 0;
+  height: 15em;
+  justify-content: center;
+  align-items: center;
 
-    p {
-        color: black;
-        font-weight: bold;
-    }
+  p {
+    color: $greypurple;
+    font-weight: bold;
+  }
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 h1 {
-    font-family: 'Libre Baskerville', serif;
-    font-weight: bold;
-    font-size: 4.5em;
+  font-family: "Libre Baskerville", serif;
+  font-weight: bold;
+  font-size: 4.5em;
 }
 
 p {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 1.4em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1.4em;
 }

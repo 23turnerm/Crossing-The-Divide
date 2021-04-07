@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Poppins:wght@300;400;500;700&display=swap");
 html {
   display: flexbox;
+  font-weight: 400;
 }
 
 html ::-moz-selection {
@@ -51,7 +52,7 @@ body {
 .top-section #svg-logo {
   width: 28em;
   height: 100%;
-  margin: -3.4em 0 0 -5em;
+  margin: -4em 0 0 -4.4em;
   -webkit-filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
           filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
 }

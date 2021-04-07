@@ -13,6 +13,7 @@ html {
     color: white;
     background-color: black;
   }
+  font-weight: 400;
 }
 
 body {
@@ -22,6 +23,7 @@ body {
   justify-content: center;
   display: flex;
   overflow-x: hidden;
+  
 }
 
 .center-container {
@@ -39,7 +41,7 @@ body {
   #svg-logo {
     width: 28em;
     height: 100%;
-    margin: -3.4em 0 0 -5em;
+    margin: -4em 0 0 -4.4em;
     filter: drop-shadow($mainshadow);
   }
 

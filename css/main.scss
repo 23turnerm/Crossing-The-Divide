@@ -22,7 +22,7 @@ body {
   justify-content: center;
   display: flex;
   overflow-x: hidden;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -59,10 +59,10 @@ p {
   width: 100%;
 
   #svg-logo {
-    width: 25em;
+    width: 30em;
     max-height: 100%;
     max-width: 100%;
-    margin: -4em 0 0 -7em;
+    margin: -4.5em 0 0 -7.5em;
     filter: drop-shadow($mainshadow);
   }
 
@@ -210,7 +210,7 @@ p {
 }
 
 #glaciers {
-  width: 48em;
+  width: 30em;
 
 }
 
@@ -219,7 +219,7 @@ p {
   background-color: $purple;
   width: 100%;
   margin: 20em 0 0 0;
-  height: 10em;
+  height: 6em;
   justify-content: center;
   align-items: center;
 

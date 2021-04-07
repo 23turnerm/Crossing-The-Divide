@@ -70,11 +70,10 @@ p {
 }
 
 .top-section #svg-logo {
-  width: 30em;
-  height: auto;
+  width: 25em;
   max-height: 100%;
   max-width: 100%;
-  margin: -6em 0 0 -5.8em;
+  margin: -4em 0 0 -7em;
   -webkit-filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
           filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
 }
@@ -162,10 +161,10 @@ p {
   cursor: pointer;
   -webkit-box-shadow: 0.4em 0.4em 1.5em #b4b4b4;
           box-shadow: 0.4em 0.4em 1.5em #b4b4b4;
-  -webkit-transition: -webkit-transform 0.2s ease-in-out;
-  transition: -webkit-transform 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+  -webkit-transition: -webkit-transform 0.2s ease-in;
+  transition: -webkit-transform 0.2s ease-in;
+  transition: transform 0.2s ease-in;
+  transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
 }
 
 .hero-block .hero-join:hover {

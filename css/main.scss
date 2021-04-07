@@ -13,7 +13,6 @@ html {
     color: white;
     background-color: black;
   }
-  font-weight: 400;
 }
 
 body {
@@ -23,7 +22,28 @@ body {
   justify-content: center;
   display: flex;
   overflow-x: hidden;
-  
+  font-size: 22px;
+  font-weight: 400;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+h1 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 72px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 22px;
 }
 
 .center-container {
@@ -41,6 +61,8 @@ body {
   #svg-logo {
     width: 30em;
     height: auto;
+    max-height: 100%;
+    max-width: 100%;
     margin: -6em 0 0 -5.8em;
     filter: drop-shadow($mainshadow);
   }
@@ -62,8 +84,6 @@ body {
 
       a {
         color: black;
-        font-size: 1.4em;
-        font-weight: 500;
       }
     }
     .join-btn {
@@ -75,8 +95,6 @@ body {
       cursor: pointer;
       a {
         color: white;
-        font-size: 1.4em;
-        font-weight: 500;
       }
     }
   }
@@ -101,8 +119,6 @@ body {
     width: fit-content;
     padding: 0.3em 2em;
     margin: 1em 0 0 0;
-    font-size: 1.4em;
-    font-weight: 500;
     background-color: $red;
     color: white;
     border-radius: 2em;
@@ -210,23 +226,5 @@ body {
 
   p {
     color: $greypurple;
-    font-weight: bold;
   }
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-h1 {
-  font-family: "Libre Baskerville", serif;
-  font-weight: bold;
-  font-size: 4.5em;
-}
-
-p {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-size: 1.4em;
 }

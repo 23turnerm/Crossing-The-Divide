@@ -311,7 +311,7 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #272b42;
+  background-color: #181b29;
   width: 100%;
   margin: 20em 0 0 0;
   height: 4em;
@@ -337,8 +337,9 @@ p {
           align-items: center;
 }
 
-.footer .contents svg {
+.footer .contents #footer-logo {
   width: 4.5em;
+  cursor: pointer;
   height: calc(4.5em/2.39458422);
 }
 

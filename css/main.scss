@@ -218,7 +218,7 @@ p {
 
 .footer {
   display: flex;
-  background-color: $purple;
+  background-color: $darkpurple;
   width: 100%;
   margin: 20em 0 0 0;
   height: 4em;
@@ -231,8 +231,9 @@ p {
     justify-content: space-between;
     max-width: 1536px;
     align-items: center;
-    svg {
+    #footer-logo {
       width: 4.5em;
+      cursor: pointer;
       height: calc(4.5em/2.39458422);
     }
     p {

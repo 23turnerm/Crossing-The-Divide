@@ -49,7 +49,7 @@ p {
   max-width: 1536px;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .top-section {

@@ -9,18 +9,18 @@ $darkpurple: #181b29;
 
 html {
   display: flexbox;
-  overflow-x: hidden;
   ::selection {
     color: white;
     background-color: black;
   }
 }
 
-body {
+body .safari-trash{
   border-radius: border-box;
   align-items: center;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
   font-size: 16px;
   font-weight: 400;
   margin: 0;

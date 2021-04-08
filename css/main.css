@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Poppins:wght@300;400;500;700&display=swap");
 html {
   display: flexbox;
-  position: relative;
-  overflow-x: hidden;
 }
 
 html ::-moz-selection {
@@ -15,7 +13,7 @@ html ::selection {
   background-color: black;
 }
 
-body {
+body .safari-trash {
   border-radius: border-box;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -27,6 +25,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow-x: hidden;
   font-size: 16px;
   font-weight: 400;
   margin: 0;

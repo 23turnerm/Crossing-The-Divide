@@ -30,11 +30,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-html .safari-trash {
-  position: relative;
-  overflow-x: hidden;
-}
-
 a {
   text-decoration: none;
   color: white;
@@ -63,6 +58,7 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow-x: hidden;
 }
 
 .top-section {

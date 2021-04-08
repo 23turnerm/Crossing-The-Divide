@@ -14,7 +14,7 @@ html ::selection {
 }
 
 html, body, .safari-trash {
-  overflow-x: hidden !important;
+  overflow-x: hidden;
 }
 
 body {

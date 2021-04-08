@@ -301,10 +301,14 @@ p {
 
 #glaciers {
   width: 32em;
+  -webkit-filter: drop-shadow(0.2em 0.2em 0.8em #d3d3d3);
+          filter: drop-shadow(0.2em 0.2em 0.8em #d3d3d3);
 }
 
 #handshake {
   width: 32em;
+  -webkit-filter: drop-shadow(0.2em 0.2em 0.8em #d3d3d3);
+          filter: drop-shadow(0.2em 0.2em 0.8em #d3d3d3);
 }
 
 .mountains {

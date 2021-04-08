@@ -307,14 +307,36 @@ p {
   width: 32em;
 }
 
-.footer-bottom {
+.mountains {
+  margin: 25em 0 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #181b29;
   width: 100%;
-  margin: 20em 0 0 0;
-  height: 4em;
+  max-width: 1536px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.mountains #left-mnt {
+  width: 12em;
+  height: calc(12em/2.33995663);
+}
+
+.mountains #right-mnt {
+  width: 12em;
+  height: calc(12em/2.22063629);
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -323,27 +345,59 @@ p {
           align-items: center;
 }
 
-.footer-bottom .contents {
-  width: 95%;
+.top {
+  background-color: #272b42;
+  height: 7em;
+}
+
+.top .sections {
+  width: 25em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.top .sections a {
+  font-weight: 500;
+  margin: 0;
+  color: #c0c1ca;
+  -webkit-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+}
+
+.top .sections a:hover {
+  color: #f6f6ff;
+}
+
+.bottom {
+  background-color: #181b29;
+  height: 3.6em;
+  border-top: #5f6069 1px solid;
+  margin: 0;
+}
+
+.bottom .contents {
+  width: 95%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr auto 1fr;
+      grid-template-columns: 1fr auto 1fr;
   max-width: 1536px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.footer-bottom .contents #footer-logo {
+.bottom .contents #footer-logo {
   width: 4.5em;
   cursor: pointer;
   height: calc(4.5em / 2.39458422);
 }
 
-.footer-bottom .contents .social-icons {
+.bottom .contents .social-icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -353,18 +407,19 @@ p {
           justify-content: space-between;
 }
 
-.footer-bottom .contents .social-icons a {
+.bottom .contents .social-icons a {
   height: 1em;
 }
 
-.footer-bottom .contents .social-icons a svg {
+.bottom .contents .social-icons a svg {
   height: 1em;
 }
 
-.footer-bottom .contents p {
+.bottom .contents p {
   font-weight: 500;
   margin: 0;
   color: #c0c1ca;
   font-size: 1em;
+  margin-left: auto;
 }
 /*# sourceMappingURL=main.css.map */

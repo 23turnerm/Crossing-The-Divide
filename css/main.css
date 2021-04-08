@@ -73,7 +73,7 @@ p {
 }
 
 .top-section #svg-logo {
-  width: calc(18em * 1.4136038186);
+  width: calc(18em*1.4136038186);
   height: 18em;
   margin: -4.8em 0 0 -5em;
   -webkit-filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
@@ -201,7 +201,7 @@ p {
 }
 
 .even-cont .even {
-  width: calc(100% - 16em);
+  width: calc(100%-16em);
   margin: 15em 0 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -253,7 +253,7 @@ p {
 }
 
 .odd-cont .odd {
-  width: calc(100% - 16em);
+  width: calc(100%-16em);
   margin: 15em 0 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -312,7 +312,7 @@ p {
 }
 
 .mountains {
-  margin: 25em 0 0 0;
+  margin: 25em 0 -0.1em 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -321,19 +321,17 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .mountains #left-mnt {
   width: 12em;
-  height: calc(12em / 2.33995663);
 }
 
 .mountains #right-mnt {
   width: 12em;
-  height: calc(12em / 2.22063629);
 }
 
 .footer {
@@ -398,7 +396,7 @@ p {
 .bottom .contents #footer-logo {
   width: 4.5em;
   cursor: pointer;
-  height: calc(4.5em / 2.39458422);
+  height: calc(4.5em/2.39458422);
 }
 
 .bottom .contents .social-icons {

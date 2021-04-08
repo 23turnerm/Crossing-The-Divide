@@ -98,7 +98,7 @@ p {
 }
 
 .hero-block {
-  margin: 9em 0 0 10em;
+  margin: 10em 0 0 8em;
   display: flex;
   flex-direction: column;
 
@@ -146,7 +146,7 @@ p {
   padding: 0;
 
   .even {
-    width: calc(100% - 20em);
+    width: calc(100% - 16em);
     margin: 15em 0 0 0;
     display: flex;
     flex-direction: row;
@@ -177,7 +177,7 @@ p {
   padding: 0;
 
   .odd {
-    width: calc(100% - 20em);
+    width: calc(100% - 16em);
     margin: 15em 0 0 0;
     display: flex;
     flex-direction: row;
@@ -207,7 +207,7 @@ p {
 }
 
 #glaciers {
-  width: 32em;
+  width: 36em;
   filter: drop-shadow(0.2em 0.2em 0.8em #d3d3d3);
 }
 

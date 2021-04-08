@@ -129,7 +129,7 @@ p {
 }
 
 .hero-block {
-  margin: 9em 0 0 10em;
+  margin: 10em 0 0 8em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -201,7 +201,7 @@ p {
 }
 
 .even-cont .even {
-  width: calc(100% - 20em);
+  width: calc(100% - 16em);
   margin: 15em 0 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -253,7 +253,7 @@ p {
 }
 
 .odd-cont .odd {
-  width: calc(100% - 20em);
+  width: calc(100% - 16em);
   margin: 15em 0 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -300,7 +300,7 @@ p {
 }
 
 #glaciers {
-  width: 32em;
+  width: 36em;
   -webkit-filter: drop-shadow(0.2em 0.2em 0.8em #d3d3d3);
           filter: drop-shadow(0.2em 0.2em 0.8em #d3d3d3);
 }

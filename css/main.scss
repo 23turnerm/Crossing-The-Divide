@@ -230,6 +230,11 @@ p {
     display: flex;
     justify-content: space-between;
     max-width: 1536px;
+    align-items: center;
+    svg {
+      width: 4.5em;
+      height: calc(4.5em/2.39458422);
+    }
     p {
       font-weight: 500;
       margin: 0;

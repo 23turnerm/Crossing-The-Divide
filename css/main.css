@@ -332,6 +332,14 @@ p {
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 1536px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .contents svg {
+  width: 4.5em;
+  height: calc(4.5em/2.39458422);
 }
 
 .footer .contents p {

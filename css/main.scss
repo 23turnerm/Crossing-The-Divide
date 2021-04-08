@@ -27,7 +27,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-
 a {
   text-decoration: none;
   color: white;
@@ -169,7 +168,6 @@ p {
   }
 }
 
-
 .odd-cont {
   width: 100%;
   display: flex;
@@ -224,7 +222,7 @@ p {
   height: 4em;
   justify-content: center;
   align-items: center;
-  
+
   .contents {
     width: 95%;
     display: flex;
@@ -234,21 +232,17 @@ p {
     #footer-logo {
       width: 4.5em;
       cursor: pointer;
-      height: calc(4.5em/2.39458422);
+      height: calc(4.5em / 2.39458422);
     }
     .social-icons {
-      height: min-content;
       display: flex;
       width: 5.6em;
       justify-content: space-between;
-      align-items: center;
 
       a {
         height: 1em;
-        width: min-content;
 
         svg {
-          width: auto;
           height: 1em;
         }
       }

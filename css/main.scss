@@ -17,13 +17,13 @@ html {
 
 body {
   border-radius: border-box;
-  margin: 0;
-  font-family: "Poppins", sans-serif;
   justify-content: center;
   display: flex;
   overflow-x: hidden;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 
@@ -41,7 +41,6 @@ h1 {
 }
 
 p {
-  font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 22px;
 }
@@ -60,6 +59,7 @@ p {
 
   #svg-logo {
     width: 30em;
+    height: auto;
     max-height: 100%;
     max-width: 100%;
     margin: -4.5em 0 0 -7.5em;

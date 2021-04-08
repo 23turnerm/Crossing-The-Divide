@@ -8,7 +8,6 @@ $purple: #272b42;
 $darkpurple: #181b29;
 
 html {
-  overflow-x: hidden !important;
   display: flexbox;
   ::selection {
     color: white;
@@ -17,6 +16,7 @@ html {
 }
 
 body{
+  overflow-x: hidden !important;
   align-items: center;
   display: flex;
   flex-direction: column;

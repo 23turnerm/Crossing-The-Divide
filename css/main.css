@@ -328,10 +328,12 @@ p {
 
 .mountains #left-mnt {
   width: 12em;
+  height: calc(12em/2.33995663);
 }
 
 .mountains #right-mnt {
   width: 12em;
+  height: calc(12/2.203629) em;
 }
 
 .footer {

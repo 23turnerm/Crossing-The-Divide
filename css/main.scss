@@ -9,6 +9,7 @@ $darkpurple: #181b29;
 
 html {
   display: flexbox;
+  overflow-x: hidden;
   ::selection {
     color: white;
     background-color: black;
@@ -20,7 +21,6 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
   font-size: 16px;
   font-weight: 400;
   margin: 0;
@@ -242,7 +242,7 @@ p {
 
 .top {
   background-color: $purple;
-  height: 7em;
+  height: 5em;
 
   .sections {
     width: 25em;
@@ -253,6 +253,7 @@ p {
       margin: 0;
       color: $greypurple;
       transition: color 0.2s ease-in;
+      
 
       &:hover {
         color: #f6f6ff;
@@ -263,7 +264,7 @@ p {
 
 .bottom {
   background-color: $darkpurple;
-  height: 3.6em;
+  height: 3.4em;
   border-top: #5f6069 1px solid;
   margin: 0;
   .contents {

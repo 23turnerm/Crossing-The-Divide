@@ -17,8 +17,9 @@ html {
 
 body {
   border-radius: border-box;
-  justify-content: center;
+  align-items: center;
   display: flex;
+  flex-direction: column;
   overflow-x: hidden;
   font-size: 16px;
   font-weight: 400;
@@ -223,8 +224,17 @@ p {
   height: 6em;
   justify-content: center;
   align-items: center;
-
-  p {
-    color: $greypurple;
+  
+  .contents {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1536px;
+    p {
+      font-weight: 500;
+      margin: 0;
+      color: $greypurple;
+      font-size: 1em;
+    }
   }
 }

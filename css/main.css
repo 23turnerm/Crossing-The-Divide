@@ -78,6 +78,7 @@ p {
   margin: -4.8em 0 0 -5em;
   -webkit-filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
           filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
+  overflow-x: hidden;
 }
 
 .top-section .navbar {
@@ -182,6 +183,7 @@ p {
   width: 35em;
   -webkit-filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
           filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
+  overflow-x: hidden;
 }
 
 .even-cont {

@@ -13,8 +13,11 @@ html ::selection {
   background-color: black;
 }
 
-body {
+html, body, .safari-trash {
   overflow-x: hidden !important;
+}
+
+body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

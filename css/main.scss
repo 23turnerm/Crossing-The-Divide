@@ -15,8 +15,11 @@ html {
   }
 }
 
-body{
+html, body, .safari-trash {
   overflow-x: hidden !important;
+}
+
+body{
   align-items: center;
   display: flex;
   flex-direction: column;

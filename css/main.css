@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Poppins:wght@300;400;500;700&display=swap");
 html {
   display: flexbox;
+  position: relative;
   overflow-x: hidden;
 }
 
@@ -78,7 +79,6 @@ p {
   margin: -4.8em 0 0 -5em;
   -webkit-filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
           filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
-  overflow-x: hidden;
 }
 
 .top-section .navbar {
@@ -183,7 +183,6 @@ p {
   width: 35em;
   -webkit-filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
           filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
-  overflow-x: hidden;
 }
 
 .even-cont {

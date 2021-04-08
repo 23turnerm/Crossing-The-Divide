@@ -8,6 +8,7 @@ $purple: #272b42;
 $darkpurple: #181b29;
 
 html {
+  overflow-x: hidden !important;
   display: flexbox;
   ::selection {
     color: white;
@@ -49,7 +50,6 @@ p {
   max-width: 1536px;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden !important;
 }
 
 .top-section {

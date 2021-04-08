@@ -216,7 +216,7 @@ p {
   width: 32em;
 }
 
-.footer {
+.footer-bottom {
   display: flex;
   background-color: $darkpurple;
   width: 100%;
@@ -226,7 +226,7 @@ p {
   align-items: center;
   
   .contents {
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     max-width: 1536px;
@@ -235,6 +235,23 @@ p {
       width: 4.5em;
       cursor: pointer;
       height: calc(4.5em/2.39458422);
+    }
+    .social-icons {
+      height: min-content;
+      display: flex;
+      width: 5.6em;
+      justify-content: space-between;
+      align-items: center;
+
+      a {
+        height: 1em;
+        width: min-content;
+
+        svg {
+          width: auto;
+          height: 1em;
+        }
+      }
     }
     p {
       font-weight: 500;

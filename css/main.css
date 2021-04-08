@@ -307,7 +307,7 @@ p {
   width: 32em;
 }
 
-.footer {
+.footer-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -323,8 +323,8 @@ p {
           align-items: center;
 }
 
-.footer .contents {
-  width: 100%;
+.footer-bottom .contents {
+  width: 95%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -337,13 +337,41 @@ p {
           align-items: center;
 }
 
-.footer .contents #footer-logo {
+.footer-bottom .contents #footer-logo {
   width: 4.5em;
   cursor: pointer;
   height: calc(4.5em/2.39458422);
 }
 
-.footer .contents p {
+.footer-bottom .contents .social-icons {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 5.6em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-bottom .contents .social-icons a {
+  height: 1em;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+.footer-bottom .contents .social-icons a svg {
+  width: auto;
+  height: 1em;
+}
+
+.footer-bottom .contents p {
   font-weight: 500;
   margin: 0;
   color: #c0c1ca;

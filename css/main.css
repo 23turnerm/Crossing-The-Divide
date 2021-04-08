@@ -351,7 +351,7 @@ p {
 
 .top {
   background-color: #272b42;
-  height: 5em;
+  height: 4em;
 }
 
 .top .sections {
@@ -365,8 +365,9 @@ p {
 }
 
 .top .sections a {
-  font-weight: 500;
+  font-weight: 400;
   margin: 0;
+  font-size: 1.2em;
   color: #c0c1ca;
   -webkit-transition: color 0.2s ease-in;
   transition: color 0.2s ease-in;
@@ -378,7 +379,7 @@ p {
 
 .bottom {
   background-color: #181b29;
-  height: 3.4em;
+  height: 3em;
   border-top: #5f6069 1px solid;
   margin: 0;
 }

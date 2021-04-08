@@ -324,12 +324,12 @@ p {
 
 .mountains #left-mnt {
   width: 12em;
-  height: calc(12em/2.33995663);
+  height: calc(12em / 2.33995663);
 }
 
 .mountains #right-mnt {
   width: 12em;
-  height: calc(12em/2.22063629);
+  height: calc(12em / 2.22063629);
 }
 
 .footer {

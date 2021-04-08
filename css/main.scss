@@ -214,7 +214,6 @@ p {
   width: 32em;
 }
 
-
 .mountains {
   margin: 25em 0 0 0;
   display: flex;
@@ -225,11 +224,11 @@ p {
 
   #left-mnt {
     width: 12em;
-    height: calc(12em/2.33995663);
+    height: calc(12em / 2.33995663);
   }
   #right-mnt {
     width: 12em;
-    height: calc(12em/2.22063629);
+    height: calc(12em / 2.22063629);
   }
 }
 .footer {
@@ -237,13 +236,12 @@ p {
   width: 100%;
   justify-content: center;
   align-items: center;
-
 }
 
 .top {
   background-color: $purple;
   height: 7em;
-  
+
   .sections {
     width: 25em;
     display: flex;
@@ -261,7 +259,6 @@ p {
   }
 }
 
-
 .bottom {
   background-color: $darkpurple;
   height: 3.6em;
@@ -278,16 +275,15 @@ p {
       width: 4.5em;
       cursor: pointer;
       height: calc(4.5em / 2.39458422);
-
     }
     .social-icons {
       display: flex;
       width: 5.6em;
       justify-content: space-between;
-  
+
       a {
         height: 1em;
-  
+
         svg {
           height: 1em;
         }
@@ -299,8 +295,6 @@ p {
       color: $greypurple;
       font-size: 1em;
       margin-left: auto;
-
     }
   }
-  
 }

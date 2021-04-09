@@ -220,7 +220,7 @@ p {
 }
 
 .mountains {
-  margin: 25em 0 -0.1em 0;
+  margin: 25em 0 0 0;
   display: flex;
   width: 100%;
   max-width: 1536px;
@@ -269,7 +269,6 @@ p {
 .bottom {
   background-color: $darkpurple;
   height: 3em;
-  border-top: #5f6069 1px solid;
   margin: 0;
   .contents {
     width: 95%;

@@ -14,7 +14,7 @@ html ::selection {
 }
 
 html, body, .safari-trash {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 body {
@@ -75,9 +75,9 @@ p {
 }
 
 .top-section #svg-logo {
-  width: calc(18em * 1.4136038186);
+  width: calc(18em * 1.3126671991);
   height: 18em;
-  margin: -4.8em 0 0 -5em;
+  margin: -4.7em 0 0 -3.9em;
   -webkit-filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
           filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
 }

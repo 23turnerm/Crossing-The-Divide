@@ -382,7 +382,6 @@ p {
 .bottom {
   background-color: #181b29;
   height: 4em;
-  margin: 0;
 }
 
 .bottom .contents {
@@ -407,7 +406,7 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 5.8em;
+  width: 6.2em;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;

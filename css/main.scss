@@ -269,7 +269,6 @@ p {
 .bottom {
   background-color: $darkpurple;
   height: 4em;
-  margin: 0;
   .contents {
     width: 95%;
     height: 100%;
@@ -286,7 +285,7 @@ p {
     }
     .social-icons {
       display: flex;
-      width: 5.8em;
+      width: 6.2em;
       justify-content: space-between;
       align-items: center;
       margin: auto 0;

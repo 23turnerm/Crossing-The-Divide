@@ -353,7 +353,7 @@ p {
 
 .top {
   background-color: #272b42;
-  height: 4.2em;
+  height: 5.4em;
 }
 
 .top .sections {
@@ -381,40 +381,44 @@ p {
 
 .bottom {
   background-color: #181b29;
-  height: 3em;
+  height: 4em;
   margin: 0;
 }
 
 .bottom .contents {
   width: 95%;
+  height: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr auto 1fr;
       grid-template-columns: 1fr auto 1fr;
   max-width: 1536px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .bottom .contents #footer-logo {
   width: 4.5em;
   cursor: pointer;
   height: calc(4.5em / 2.39458422);
+  margin: auto 0;
+  padding: 0 0 0.2em 0;
 }
 
 .bottom .contents .social-icons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 5.6em;
+  width: 5.8em;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto 0;
 }
 
 .bottom .contents .social-icons a {
-  height: 1em;
+  height: 1.15em;
 }
 
 .bottom .contents .social-icons a svg {
@@ -422,9 +426,12 @@ p {
 }
 
 .bottom .contents p {
-  margin: 0;
+  padding: 0;
   color: #c0c1ca;
   font-size: 1em;
-  margin-left: auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: auto 0 auto auto;
 }
 /*# sourceMappingURL=main.css.map */

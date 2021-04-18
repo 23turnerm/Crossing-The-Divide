@@ -416,12 +416,8 @@ p {
   margin: auto 0;
 }
 
-.bottom .contents .social-icons a {
-  height: 1.15em;
-}
-
-.bottom .contents .social-icons a svg {
-  height: 1em;
+.bottom .contents .social-icons svg {
+  height: 1.25em;
 }
 
 .bottom .contents p {

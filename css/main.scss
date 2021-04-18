@@ -137,7 +137,7 @@ p {
   z-index: -2;
   margin: -9em -12em;
   width: 35em;
-  height: min-content;
+  height: calc(35em / 1.0439692344);
   filter: drop-shadow($mainshadow);
 }
 

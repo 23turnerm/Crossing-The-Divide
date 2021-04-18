@@ -485,13 +485,28 @@ p {
     font-size: 12px;
   }
   a, p {
-    font-size: 16px;
+    font-size: 15px;
   }
   h1 {
     font-size: 54px;
   }
   #red-blob {
     margin-top: -17em;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    font-size: 10px;
+  }
+  a, p {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  #red-blob {
+    margin-top: -18em;
   }
 }
 /*# sourceMappingURL=main.css.map */

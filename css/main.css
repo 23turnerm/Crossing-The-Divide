@@ -180,11 +180,9 @@ p {
   -ms-flex-item-align: end;
       align-self: flex-end;
   z-index: -2;
-  margin: -9em -12em;
+  margin: -7.8em -12em;
   width: 35em;
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
+  height: calc(35em / 1.0439692344);
   -webkit-filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
           filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
 }

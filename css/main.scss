@@ -111,7 +111,7 @@ p {
   }
 
   p {
-    width: 25em;
+    width: 24em;
     margin: 0.6em 0 0 0.2em;
   }
 
@@ -135,8 +135,9 @@ p {
 #red-blob {
   align-self: flex-end;
   z-index: -2;
-  margin: -10em -10em;
+  margin: -9em -12em;
   width: 35em;
+  height: min-content;
   filter: drop-shadow($mainshadow);
 }
 
@@ -164,7 +165,7 @@ p {
       }
 
       p {
-        width: 25em;
+        width: 22em;
         margin: 0.6em 0 0 0.2em;
       }
     }
@@ -195,7 +196,7 @@ p {
       }
 
       p {
-        width: 25em;
+        width: 22em;
         margin: 0.6em 0 0 0.2em;
       }
     }
@@ -303,5 +304,67 @@ p {
       height: min-content;
       margin: auto 0 auto auto;
     }
+  }
+}
+
+
+@media (max-width: 1350px) {
+  body {
+    font-size: 14px;
+  }
+  a,p{
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 66px;
+  }
+  #red-blob {
+    margin-top: -14em;
+  }
+}
+
+@media (max-width: 1180px) {
+  body {
+    font-size: 13px;
+  }
+  a,p{
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 64px;
+  }
+  #red-blob {
+    margin-top: -16em;
+  }
+}
+
+@media (max-width: 1090px) {
+  body {
+    font-size: 12px;
+  }
+  a,p{
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 58px;
+  }
+  #red-blob {
+    margin-top: -17em;
+  }
+}
+
+@media (max-width: 1000px) {
+  body {
+    font-size: 12px;
+  }
+  a,p{
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 54px;
+  }
+  #red-blob {
+    margin-top: -17em;
   }
 }

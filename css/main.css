@@ -419,6 +419,7 @@ p {
 
 .bottom .contents .social-icons svg {
   height: 1.25em;
+  cursor: pointer;
 }
 
 .bottom .contents .social-icons svg path {

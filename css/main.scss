@@ -291,6 +291,7 @@ p {
       margin: auto 0;
       svg {
         height: 1.25em;
+        cursor: pointer;
         path {
           transition: fill 0.2s ease-in;
         }

@@ -291,6 +291,14 @@ p {
       margin: auto 0;
       svg {
         height: 1.25em;
+        path {
+          transition: fill 0.2s ease-in;
+        }
+        &:hover {
+          path {
+            fill: #f6f6ff;
+          }
+        }
       }
     }
     p {

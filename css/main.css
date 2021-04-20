@@ -421,6 +421,15 @@ p {
   height: 1.25em;
 }
 
+.bottom .contents .social-icons svg path {
+  -webkit-transition: fill 0.2s ease-in;
+  transition: fill 0.2s ease-in;
+}
+
+.bottom .contents .social-icons svg:hover path {
+  fill: #f6f6ff;
+}
+
 .bottom .contents p {
   padding: 0;
   color: #c0c1ca;

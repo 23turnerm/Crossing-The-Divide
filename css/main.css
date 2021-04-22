@@ -193,7 +193,7 @@ p {
 
 .hero-cont #hero-illustration {
   z-index: -1;
-  right: 0;
+  right: 0em;
   position: absolute;
   width: 60em;
   height: 25.16054em;

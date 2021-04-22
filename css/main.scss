@@ -100,45 +100,52 @@ p {
   }
 }
 
-.hero-block {
-  margin: 10em 0 0 8em;
+
+.hero-cont {
   display: flex;
-  flex-direction: column;
-
-  .title {
-    margin: 0;
-    width: fit-content;
-  }
-
-  p {
-    width: 24em;
-    margin: 0.6em 0 0 0.2em;
-  }
-
-  .hero-join {
-    width: fit-content;
-    padding: 0.3em 2em;
-    margin: 1em 0 0 0;
-    background-color: $red;
-    color: white;
-    border-radius: 2em;
-    cursor: pointer;
-    box-shadow: $mainshadow;
-    transition: transform 0.2s ease-in;
-
-    &:hover {
-      transform: scale(1.02);
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 8em;
+  .hero-block {
+    margin: 0 0 0 8em;
+    display: flex;
+    flex-direction: column;
+  
+    .title {
+      margin: 0;
+      width: fit-content;
+    }
+  
+    p {
+      width: 24em;
+      margin: 0.6em 0 0 0.2em;
+    }
+  
+    .hero-join {
+      width: fit-content;
+      padding: 0.3em 2em;
+      margin: 1em 0 0 0;
+      background-color: $red;
+      color: white;
+      border-radius: 2em;
+      cursor: pointer;
+      box-shadow: $mainshadow;
+      transition: transform 0.2s ease-in;
+  
+      &:hover {
+        transform: scale(1.02);
+      }
     }
   }
-}
-
-#red-blob {
-  align-self: flex-end;
-  z-index: -2;
-  margin: -7.8em -12em;
-  width: 35em;
-  height: calc(35em / 1.0439692344);
-  filter: drop-shadow($mainshadow);
+  #hero-illustration {
+    z-index: -1;
+    right: 0;
+    position: absolute;
+    width: 60em;
+    margin: -7em -8.5em 0 0;
+  }
 }
 
 .even-cont {
@@ -323,9 +330,7 @@ p {
   h1 {
     font-size: 66px;
   }
-  #red-blob {
-    margin-top: -14em;
-  }
+
 }
 
 @media (max-width: 1180px) {
@@ -338,9 +343,7 @@ p {
   h1 {
     font-size: 64px;
   }
-  #red-blob {
-    margin-top: -16em;
-  }
+
 }
 
 @media (max-width: 1090px) {
@@ -353,9 +356,7 @@ p {
   h1 {
     font-size: 58px;
   }
-  #red-blob {
-    margin-top: -17em;
-  }
+
 }
 
 @media (max-width: 1000px) {
@@ -368,9 +369,7 @@ p {
   h1 {
     font-size: 54px;
   }
-  #red-blob {
-    margin-top: -17em;
-  }
+
 }
 
 @media (max-width: 800px) {
@@ -383,7 +382,5 @@ p {
   h1 {
     font-size: 48px;
   }
-  #red-blob {
-    margin-top: -18em;
-  }
+
 }

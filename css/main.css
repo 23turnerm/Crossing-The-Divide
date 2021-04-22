@@ -130,8 +130,23 @@ p {
   color: white;
 }
 
-.hero-block {
-  margin: 10em 0 0 8em;
+.hero-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  margin-top: 8em;
+}
+
+.hero-cont .hero-block {
+  margin: 0 0 0 8em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -141,19 +156,19 @@ p {
           flex-direction: column;
 }
 
-.hero-block .title {
+.hero-cont .hero-block .title {
   margin: 0;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
 
-.hero-block p {
+.hero-cont .hero-block p {
   width: 24em;
   margin: 0.6em 0 0 0.2em;
 }
 
-.hero-block .hero-join {
+.hero-cont .hero-block .hero-join {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -171,20 +186,17 @@ p {
   transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
 }
 
-.hero-block .hero-join:hover {
+.hero-cont .hero-block .hero-join:hover {
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
 }
 
-#red-blob {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  z-index: -2;
-  margin: -7.8em -12em;
-  width: 35em;
-  height: calc(35em / 1.0439692344);
-  -webkit-filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
-          filter: drop-shadow(0.4em 0.4em 1.5em #b4b4b4);
+.hero-cont #hero-illustration {
+  z-index: -1;
+  right: 0;
+  position: absolute;
+  width: 60em;
+  margin: -7em -8.5em 0 0;
 }
 
 .even-cont {
@@ -451,9 +463,6 @@ p {
   h1 {
     font-size: 66px;
   }
-  #red-blob {
-    margin-top: -14em;
-  }
 }
 
 @media (max-width: 1180px) {
@@ -465,9 +474,6 @@ p {
   }
   h1 {
     font-size: 64px;
-  }
-  #red-blob {
-    margin-top: -16em;
   }
 }
 
@@ -481,9 +487,6 @@ p {
   h1 {
     font-size: 58px;
   }
-  #red-blob {
-    margin-top: -17em;
-  }
 }
 
 @media (max-width: 1000px) {
@@ -496,9 +499,6 @@ p {
   h1 {
     font-size: 54px;
   }
-  #red-blob {
-    margin-top: -17em;
-  }
 }
 
 @media (max-width: 800px) {
@@ -510,9 +510,6 @@ p {
   }
   h1 {
     font-size: 48px;
-  }
-  #red-blob {
-    margin-top: -18em;
   }
 }
 /*# sourceMappingURL=main.css.map */

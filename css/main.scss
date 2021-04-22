@@ -142,6 +142,9 @@ p {
   #hero-illustration {
     z-index: -1;
     right: 0em;
+    top: auto;
+    right: auto;
+    left: auto;
     position: absolute;
     width: 60em;
     height: (60em * 0.419342408);

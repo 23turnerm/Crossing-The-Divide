@@ -102,12 +102,16 @@ p {
 
 
 .hero-cont {
-  position: relative;
-  margin: 11.5em 0 10em 0;
+  margin: 10em 0 6em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: visible;
   .hero-block {
-    margin: 0 0 0 8em;
+    margin: 0 0 0 6em;
     display: flex;
     flex-direction: column;
+    min-width: fit-content;
   
     .title {
       margin: 0;
@@ -136,12 +140,11 @@ p {
     }
   }
   #hero-illustration {
-    z-index: -1;
-    right: 0em;
-    position: absolute;
     width: 60em;
+    min-width: 60em;
     height: (60em * 0.419342408);
-    margin: -5em -11.5em 0 0;
+    margin-left: -6em;
+    z-index: -1;
   }
 }
 

@@ -142,7 +142,7 @@ p {
       -ms-flex-pack: justify;
           justify-content: space-between;
   position: relative;
-  margin: 15em 0 10em 0;
+  margin: 12em 0 10em 0;
 }
 
 .hero-cont .hero-block {
@@ -197,7 +197,7 @@ p {
   position: absolute;
   width: 60em;
   height: 25.16054em;
-  margin: -5.8em -10.5em 0 0;
+  margin: -5em -11em 0 0;
 }
 
 .even-cont {

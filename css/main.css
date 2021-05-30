@@ -402,7 +402,6 @@ p {
 
 .bottom .contents {
   width: 95%;
-  height: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr auto 1fr;

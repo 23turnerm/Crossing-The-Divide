@@ -68,6 +68,12 @@ p {
     filter: drop-shadow($mainshadow);
   }
 
+  #hamburger {
+    display: none;
+    width: 6em;
+    height: 100%;
+  }
+
   .navbar {
     display: flex;
     flex-direction: row;
@@ -157,7 +163,7 @@ p {
   padding: 0;
 
   .even {
-    width: calc(100% - 16em);
+    width: calc(100% - 12em);
     margin: 15em 0 0 0;
     display: flex;
     flex-direction: row;
@@ -188,7 +194,7 @@ p {
   padding: 0;
 
   .odd {
-    width: calc(100% - 16em);
+    width: calc(100% - 12em);
     margin: 15em 0 0 0;
     display: flex;
     flex-direction: row;
@@ -412,7 +418,7 @@ p {
 @media (max-width: 840px) {
   .hero-cont {
     #hero-illustration {
-      margin-left: -10em;
+      margin-left: -10.5em;
     }
   }
   body {
@@ -425,4 +431,36 @@ p {
   h1 {
     font-size: 48px;
   }
+}
+
+@media (max-width: 810px) {
+  .hero-cont {
+    #hero-illustration {
+      margin-left: -10em;
+      width: 55em;
+      min-width: 55em;
+    }
+  }
+
+  #polarization-graph {
+    width: 28em;
+  }
+
+  #handshake {
+    width: 26em;
+  }
+  body {
+    font-size: 10px;
+  }
+  a,
+  p {
+    font-size: 13px;
+  }
+  h1 {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 680px) {
+  /* #TODO - Implementation */
 }

@@ -2,7 +2,7 @@
 $blue: #012765;
 $red: #b30c33;
 $offwhite: #efefef;
-$mainshadow: 0.4em 0.4em 1.5em #b4b4b4;
+$mainshadow: 0.4em 0.4em 1.5em #a39f9f;
 $greypurple: #c0c1ca;
 $purple: #272b42;
 $darkpurple: #181b29;
@@ -111,7 +111,6 @@ p {
   margin: 10em 0 8em;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   overflow: visible;
   .hero-block {
     margin: 0 0 0 6em;
@@ -217,21 +216,27 @@ p {
 }
 
 #polarization-graph {
-  height: 100%;
+  height: auto;
   width: 34em;
   filter: drop-shadow(0.2em 0.2em 0.8em #d3d3d3);
   user-select: none;
   cursor: default;
+
+  #line-lines_ {
+    stroke: black;
+    stroke-width: 3px;
+  }
 }
 
 #glaciers {
   width: 36em;
   filter: drop-shadow(0.2em 0.2em 0.8em #d3d3d3);
-  height: 100%;
+  height: auto;
 }
 
 #handshake {
   width: 32em;
+  height: auto;
   filter: drop-shadow(0.2em 0.2em 0.8em #d3d3d3);
 }
 
@@ -462,5 +467,143 @@ p {
 }
 
 @media (max-width: 680px) {
-  /* #TODO - Implementation */
+  .hero-cont {
+    #hero-illustration {
+      margin-left: -11em;
+      width: 50em;
+      min-width: 50em;
+    }
+  }
+
+  #polarization-graph {
+    width: 25em;
+  }
+
+  #handshake {
+    width: 25em;
+  }
+
+  #glaciers {
+    width: 30em;
+  }
+  body {
+    font-size: 10px;
+  }
+  a,
+  p {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 625px) {
+  #polarization-graph {
+    width: 22em;
+  }
+
+  #handshake {
+    width: 22em;
+  }
+
+  #glaciers {
+    width: 30em;
+  }
+  h1 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 600px) {
+  .top-section {
+    .navbar {
+      display: none;
+    }
+    #hamburger {
+      display: block;
+    }
+  }
+
+  p,a {
+    font-size: 13px;
+  }
+
+  .hero-cont {
+    flex-direction: column;
+    justify-content: center;
+    margin: 8em 0 0 0;
+    .hero-block {
+      margin: 0;
+    }
+
+    #hero-illustration {
+      margin: 4em 0 0 0;
+      width: 80%;
+    }
+  }
+
+  .even-cont {
+    .even {
+      flex-direction: column-reverse;
+      width: 70%;
+      padding: 3em 0;
+      background-color: $purple;
+      border-radius: 25px;
+      box-shadow: $mainshadow;
+
+      .even-block {
+        margin-bottom: 5em;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+        h1,p {
+          color: white;
+          width: 80%;
+        }
+      }
+    }
+  }
+
+  .odd-cont {
+    .odd {
+      flex-direction: column;
+      width: 70%;
+      padding: 3em 0;
+      background-color: $purple;
+      border-radius: 25px;
+      box-shadow: $mainshadow;
+
+      .odd-block {
+        margin-bottom: 5em;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+        h1,p {
+          color: white;
+          width: 80%;
+        }
+      }
+    }
+  }
+
+  #polarization-graph {
+    width: 20em;
+    filter: drop-shadow(0.2em 0.2em 0.8em $darkpurple);
+    #text-lines_ {
+      fill: white;
+    }
+    #line-lines_ {
+      stroke: white;
+      stroke-width: 2px;
+    }
+  }
+  #glaciers {
+    filter: drop-shadow(0.2em 0.2em 0.8em $darkpurple);
+  }
+  #handshake {
+    filter: drop-shadow(0.2em 0.2em 0.8em $darkpurple);
+  }
 }

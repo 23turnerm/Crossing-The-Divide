@@ -125,7 +125,7 @@ p {
 
     p {
       width: 24em;
-      margin: 0.6em 0 0 0.2em;
+      margin: 0.8em 0 0 0.2em;
     }
 
     .hero-join {
@@ -532,14 +532,22 @@ p {
     flex-direction: column;
     justify-content: center;
     margin: 8em 0 0 0;
+    width: 80%;
+    align-self: center;
+    
     .hero-block {
+      width: fit-content;
       margin: 0;
+
+      .title {
+        width: 100%;
+      }
     }
 
     #hero-illustration {
       margin: 4em 0 0 0;
-      width: 90%;
-      min-width: 90%;
+      width: 100%;
+      min-width: 100%;
       height: auto;
     }
   }
@@ -616,4 +624,5 @@ p {
   .bottom {
     height: 5em;
   }
+  
 }

@@ -172,7 +172,7 @@ p {
 
 .hero-cont .hero-block p {
   width: 24em;
-  margin: 0.6em 0 0 0.2em;
+  margin: 0.8em 0 0 0.2em;
 }
 
 .hero-cont .hero-block .hero-join {
@@ -646,14 +646,24 @@ p {
         -ms-flex-pack: center;
             justify-content: center;
     margin: 8em 0 0 0;
+    width: 80%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
   .hero-cont .hero-block {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
     margin: 0;
+  }
+  .hero-cont .hero-block .title {
+    width: 100%;
   }
   .hero-cont #hero-illustration {
     margin: 4em 0 0 0;
-    width: 90%;
-    min-width: 90%;
+    width: 100%;
+    min-width: 100%;
     height: auto;
   }
   .even-cont .even {

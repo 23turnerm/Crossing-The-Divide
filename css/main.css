@@ -660,7 +660,8 @@ p {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    width: 70%;
+    width: 92%;
+    max-width: 36em;
     padding: 3em 0;
     background-color: #272b42;
     border-radius: 25px;
@@ -689,7 +690,8 @@ p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 70%;
+    width: 92%;
+    max-width: 36em;
     padding: 3em 0;
     background-color: #272b42;
     border-radius: 25px;
@@ -732,6 +734,12 @@ p {
   #handshake {
     -webkit-filter: drop-shadow(0.2em 0.2em 0.8em #181b29);
             filter: drop-shadow(0.2em 0.2em 0.8em #181b29);
+  }
+  .top {
+    height: 6.8em;
+  }
+  .bottom {
+    height: 5em;
   }
 }
 /*# sourceMappingURL=main.css.map */

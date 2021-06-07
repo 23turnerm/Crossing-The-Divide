@@ -546,7 +546,8 @@ p {
   .even-cont {
     .even {
       flex-direction: column-reverse;
-      width: 70%;
+      width: 92%;
+      max-width: 36em;
       padding: 3em 0;
       background-color: $purple;
       border-radius: 25px;
@@ -569,7 +570,8 @@ p {
   .odd-cont {
     .odd {
       flex-direction: column;
-      width: 70%;
+      width: 92%;
+      max-width: 36em;
       padding: 3em 0;
       background-color: $purple;
       border-radius: 25px;
@@ -605,5 +607,12 @@ p {
   }
   #handshake {
     filter: drop-shadow(0.2em 0.2em 0.8em $darkpurple);
+  }
+
+  .top {
+    height: 6.8em;
+  }
+  .bottom {
+    height: 5em;
   }
 }

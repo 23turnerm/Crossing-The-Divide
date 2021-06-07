@@ -15,6 +15,10 @@ html {
   }
 }
 
+.noscroll {
+  overflow: hidden;
+}
+
 html,
 body,
 .safari-trash {
@@ -49,6 +53,8 @@ p {
   font-size: 20px;
 }
 
+
+
 .center-container {
   width: 100vw;
   max-width: 1536px;
@@ -70,8 +76,6 @@ p {
 
   #hamburger {
     display: none;
-    width: 6em;
-    height: 100%;
   }
 
   .navbar {
@@ -104,6 +108,35 @@ p {
         color: white;
       }
     }
+  }
+}
+
+#overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  overflow-x: hidden;
+  z-index: 9999;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  transition: 0.5s;
+  li {
+    list-style-type: none;
+    margin-bottom: 10vh;
+    a {
+      color: black;
+      font-size: 4em;
+      font-family: "Libre Baskerville", serif;
+      height: min-content;
+    }
+  }
+  li:last-child {
+    margin-bottom: 0;
   }
 }
 
@@ -516,11 +549,16 @@ p {
 
 @media (max-width: 600px) {
   .top-section {
+    align-items: center;
     .navbar {
       display: none;
     }
     #hamburger {
       display: block;
+      width: 4em;
+      height: auto;
+      margin-right: 1em;
+      cursor: pointer;
     }
   }
 
@@ -533,6 +571,7 @@ p {
     justify-content: center;
     margin: 8em 0 0 0;
     width: 80%;
+    max-width: 40em;
     align-self: center;
     
     .hero-block {
@@ -540,7 +579,10 @@ p {
       margin: 0;
 
       .title {
-        width: 100%;
+        width: auto;
+      }
+      p {
+        width: auto;
       }
     }
 

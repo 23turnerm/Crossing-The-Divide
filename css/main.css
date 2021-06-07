@@ -13,6 +13,10 @@ html ::selection {
   background-color: rgba(0, 0, 0, 0.99);
 }
 
+.noscroll {
+  overflow: hidden;
+}
+
 html,
 body,
 .safari-trash {
@@ -86,8 +90,6 @@ p {
 
 .top-section #hamburger {
   display: none;
-  width: 6em;
-  height: 100%;
 }
 
 .top-section .navbar {
@@ -136,6 +138,50 @@ p {
 
 .top-section .navbar .join-btn a {
   color: white;
+}
+
+#overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  overflow-x: hidden;
+  z-index: 9999;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#overlay li {
+  list-style-type: none;
+  margin-bottom: 10vh;
+}
+
+#overlay li a {
+  color: black;
+  font-size: 4em;
+  font-family: "Libre Baskerville", serif;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+
+#overlay li:last-child {
+  margin-bottom: 0;
 }
 
 .hero-cont {
@@ -628,11 +674,20 @@ p {
 }
 
 @media (max-width: 600px) {
+  .top-section {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .top-section .navbar {
     display: none;
   }
   .top-section #hamburger {
     display: block;
+    width: 4em;
+    height: auto;
+    margin-right: 1em;
+    cursor: pointer;
   }
   p, a {
     font-size: 13px;
@@ -647,6 +702,7 @@ p {
             justify-content: center;
     margin: 8em 0 0 0;
     width: 80%;
+    max-width: 40em;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -658,7 +714,10 @@ p {
     margin: 0;
   }
   .hero-cont .hero-block .title {
-    width: 100%;
+    width: auto;
+  }
+  .hero-cont .hero-block p {
+    width: auto;
   }
   .hero-cont #hero-illustration {
     margin: 4em 0 0 0;

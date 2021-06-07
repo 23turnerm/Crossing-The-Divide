@@ -147,7 +147,6 @@ p {
   #hero-illustration {
     width: 60em;
     min-width: 60em;
-    height: (60em * 0.419342408);
     margin-left: -6.5em;
     z-index: -1;
   }
@@ -539,7 +538,9 @@ p {
 
     #hero-illustration {
       margin: 4em 0 0 0;
-      width: 80%;
+      width: 90%;
+      min-width: 90%;
+      height: auto;
     }
   }
 

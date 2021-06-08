@@ -53,8 +53,6 @@ p {
   font-size: 20px;
 }
 
-
-
 .center-container {
   width: 100vw;
   max-width: 1536px;
@@ -562,7 +560,8 @@ p {
     }
   }
 
-  p,a {
+  p,
+  a {
     font-size: 13px;
   }
 
@@ -573,7 +572,7 @@ p {
     width: 80%;
     max-width: 40em;
     align-self: center;
-    
+
     .hero-block {
       width: fit-content;
       margin: 0;
@@ -610,7 +609,8 @@ p {
         display: flex;
         flex-direction: column;
 
-        h1,p {
+        h1,
+        p {
           color: white;
           width: 80%;
         }
@@ -634,7 +634,8 @@ p {
         display: flex;
         flex-direction: column;
 
-        h1,p {
+        h1,
+        p {
           color: white;
           width: 80%;
         }
@@ -666,5 +667,4 @@ p {
   .bottom {
     height: 5em;
   }
-  
 }

@@ -16,7 +16,7 @@ html {
 }
 
 .noscroll {
-  overflow: hidden;
+  overflow-y: hidden !important;
 }
 
 html,

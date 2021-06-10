@@ -14,7 +14,7 @@ html ::selection {
 }
 
 .noscroll {
-  overflow: hidden;
+  overflow-y: hidden !important;
 }
 
 html,
@@ -689,7 +689,8 @@ p {
     margin-right: 1em;
     cursor: pointer;
   }
-  p, a {
+  p,
+  a {
     font-size: 13px;
   }
   .hero-cont {
@@ -751,7 +752,8 @@ p {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .even-cont .even .even-block h1, .even-cont .even .even-block p {
+  .even-cont .even .even-block h1,
+  .even-cont .even .even-block p {
     color: white;
     width: 80%;
   }
@@ -781,7 +783,8 @@ p {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .odd-cont .odd .odd-block h1, .odd-cont .odd .odd-block p {
+  .odd-cont .odd .odd-block h1,
+  .odd-cont .odd .odd-block p {
     color: white;
     width: 80%;
   }

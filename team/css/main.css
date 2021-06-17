@@ -1,1 +1,24 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+.card-gallery {
+  margin-top: 8em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+}
+
+.card-gallery .card {
+  width: 16em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-gallery .card img {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */

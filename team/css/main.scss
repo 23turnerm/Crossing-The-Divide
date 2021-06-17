@@ -1,0 +1,15 @@
+.card-gallery {
+    margin-top: 8em;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+    width: 80%;
+    .card {
+        width: 16em;
+        justify-content: center;
+        img {
+            width: 100%;
+        }
+        
+    }
+}

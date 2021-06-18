@@ -35,8 +35,8 @@
   min-width: 60em;
   height: auto;
   margin-left: 20em;
-  -webkit-filter: drop-shadow(0.1em 0.1em 1em #bdbdbd);
-          filter: drop-shadow(0.1em 0.1em 1em #bdbdbd);
+  -webkit-filter: drop-shadow(0.1em 0.1em 0.5em #cecece);
+          filter: drop-shadow(0.1em 0.1em 0.5em #cecece);
 }
 
 .card-gallery {

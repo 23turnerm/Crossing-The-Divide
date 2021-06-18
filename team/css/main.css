@@ -49,8 +49,16 @@ h1 {
   margin-top: 3em;
 }
 
+.ml {
+  margin-left: 7em;
+}
+
+.mr {
+  margin-right: 7em;
+}
+
 .card-gallery {
-  margin: 2em;
+  margin: 2em 0;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -116,5 +124,31 @@ h1 {
 
 .card-gallery .card .person-description .personal-txt {
   font-size: 0.85em;
+}
+
+@media (max-width: 760px) {
+  #team-logo {
+    margin-left: 10em;
+  }
+  .card-gallery {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .card-gallery .card {
+    margin-bottom: 5em;
+    width: 30em;
+  }
+  .card-gallery .card .person-description {
+    font-size: 1.3em;
+  }
+  .ml,
+  .mr {
+    margin: 0;
+  }
 }
 /*# sourceMappingURL=main.css.map */

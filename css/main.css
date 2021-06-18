@@ -84,6 +84,7 @@ p {
   width: 30em;
   height: 100%;
   margin: -2.1em 0 0 -6.2em;
+  cursor: pointer;
   -webkit-filter: drop-shadow(0.4em 0.4em 1.5em #a39f9f);
           filter: drop-shadow(0.4em 0.4em 1.5em #a39f9f);
 }

@@ -109,6 +109,11 @@ h1 {
     }
   }
 
+@media (max-width: 760px) {
+  #team-logo {
+    margin: 0;
+  }
+}
   .ml,
   .mr {
     margin: 0;

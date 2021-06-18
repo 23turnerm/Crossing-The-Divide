@@ -1,8 +1,49 @@
+.hero-team-cont {
+  margin: 6em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: visible;
+}
+
+.hero-team-cont .hero-block {
+  margin: 0 0 0 6em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+}
+
+.hero-team-cont .hero-block .title {
+  margin: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#team-logo {
+  width: 60em;
+  min-width: 60em;
+  height: auto;
+  margin-left: 20em;
+  -webkit-filter: drop-shadow(0.1em 0.1em 1em #bdbdbd);
+          filter: drop-shadow(0.1em 0.1em 1em #bdbdbd);
+}
+
 .card-gallery {
   margin-top: 8em;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -ms-flex-item-align: center;
       align-self: center;
   display: -webkit-box;
@@ -12,13 +53,58 @@
 }
 
 .card-gallery .card {
-  width: 16em;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  width: 23em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  border-radius: 25px;
+  -webkit-filter: drop-shadow(0.4em 0.4em 1.5em #bdbdbd);
+          filter: drop-shadow(0.4em 0.4em 1.5em #bdbdbd);
 }
 
 .card-gallery .card img {
   width: 100%;
+  border-radius: 25px 25px 0 0;
+}
+
+.card-gallery .card .person-description {
+  padding: 0.7em 2em 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-gallery .card .person-description .name-txt {
+  font-weight: bold;
+  font-size: 1.3em;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.card-gallery .card .person-description .role-txt {
+  color: #adacac;
+  font-weight: bold;
+  font-size: 0.9em;
+  letter-spacing: 0.3em;
+  margin: 0.2em -0.3em 0.2em 0;
+}
+
+.card-gallery .card .person-description .personal-txt {
+  font-size: 0.85em;
 }
 /*# sourceMappingURL=main.css.map */

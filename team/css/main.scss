@@ -1,15 +1,87 @@
+$blue: #012765;
+$red: #b30c33;
+$offwhite: #efefef;
+$mainshadow: 0.4em 0.4em 1.5em #bdbdbd;
+$greypurple: #c0c1ca;
+$purple: #272b42;
+$darkpurple: #181b29;
+
+
+
+.hero-team-cont {
+    margin: 6em 0;
+    display: flex;
+    align-items: center;
+    overflow: visible;
+    .hero-block {
+      margin: 0 0 0 6em;
+      display: flex;
+      flex-direction: column;
+      min-width: fit-content;
+  
+      .title {
+        margin: 0;
+        width: fit-content;
+      }
+    }
+  }
+
+
+
+#team-logo {
+    width: 60em;
+    min-width: 60em;
+    height: auto;
+    margin-left: 20em;
+    filter: drop-shadow(0.1em 0.1em 1em #bdbdbd);
+}
+
+
+
+
 .card-gallery {
     margin-top: 8em;
-    justify-content: center;
+    justify-content: space-evenly;
     align-self: center;
     display: flex;
     width: 80%;
     .card {
-        width: 16em;
-        justify-content: center;
+        width: 23em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: white;
+        border-radius: 25px;
+        filter: drop-shadow($mainshadow);
         img {
             width: 100%;
+            border-radius: 25px 25px 0 0;
+        }
+
+        .person-description {
+            padding: 0.7em 2em 1em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .name-txt {
+                font-weight: bold;
+                font-size: 1.3em;
+                justify-self: center;
+            }
+            .role-txt {
+                color: #adacac;
+                font-weight: bold;
+                font-size: 0.9em;
+                letter-spacing: 0.3em;
+                margin: 0.2em -0.3em 0.2em 0;
+            }
+
+            .personal-txt {
+                font-size: 0.85em;
+            }
         }
         
     }
 }
+

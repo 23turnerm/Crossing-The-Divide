@@ -146,9 +146,21 @@ h1 {
   .card-gallery .card .person-description {
     font-size: 1.3em;
   }
+}
+
+@media (max-width: 760px) and (max-width: 760px) {
+  #team-logo {
+    margin: 0;
+  }
+}
+
+@media (max-width: 760px) {
   .ml,
   .mr {
     margin: 0;
+  }
+  .hero-team-cont .hero-block {
+    margin-left: 3em;
   }
 }
 /*# sourceMappingURL=main.css.map */

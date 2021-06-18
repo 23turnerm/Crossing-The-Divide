@@ -39,8 +39,18 @@
           filter: drop-shadow(0.1em 0.1em 0.5em #cecece);
 }
 
+h1 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.divider-title {
+  margin-top: 3em;
+}
+
 .card-gallery {
-  margin-top: 8em;
+  margin: 2em;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;

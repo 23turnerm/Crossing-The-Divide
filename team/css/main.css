@@ -49,7 +49,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 80%;
+  width: 100%;
 }
 
 .card-gallery .card {

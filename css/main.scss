@@ -94,6 +94,11 @@ p {
 
       a {
         color: black;
+        transition: color 0.1s ease-in;
+      }
+      :hover {
+        transition: color 0.1s ease-in;
+        color: #35373b;
       }
     }
     .join-btn {
@@ -140,7 +145,7 @@ p {
 }
 
 .hero-cont {
-  margin: 10em 0 8em;
+  margin: 11em 0 8em;
   display: flex;
   align-items: center;
   overflow: visible;

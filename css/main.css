@@ -125,6 +125,14 @@ p {
 
 .top-section .navbar li a {
   color: black;
+  -webkit-transition: color 0.1s ease-in;
+  transition: color 0.1s ease-in;
+}
+
+.top-section .navbar li :hover {
+  -webkit-transition: color 0.1s ease-in;
+  transition: color 0.1s ease-in;
+  color: #35373b;
 }
 
 .top-section .navbar .join-btn {
@@ -186,7 +194,7 @@ p {
 }
 
 .hero-cont {
-  margin: 10em 0 8em;
+  margin: 11em 0 8em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -132,7 +132,7 @@ p {
 .top-section .navbar li :hover {
   -webkit-transition: color 0.1s ease-in;
   transition: color 0.1s ease-in;
-  color: #35373b;
+  color: #2b3850;
 }
 
 .top-section .navbar .join-btn {

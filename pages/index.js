@@ -1,5 +1,6 @@
 import { createClient } from 'contentful'
 import Head from 'next/head'
+import Image from 'next/image'
 
 export async function getStaticProps() {
   const client = createClient({
@@ -92,7 +93,9 @@ export default function Home({ authors }) {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
+          <span className="h-4 w-20 relative">
+            <Image src="/vercel.svg" objectFit="contain"layout="fill" alt="Vercel Logo" />
+          </span>
         </a>
       </footer>
     </div>

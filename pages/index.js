@@ -1,6 +1,21 @@
 import { createClient } from 'contentful'
 import Head from 'next/head'
 
+export async function getStaticProps() {
+  const client = createClient({
+    space: process.env.CONTENTFUL_SPACE_ID,
+    accessToken: process.env.CONTENTFUL_ACCESS_KEY,
+  })
+
+  const responseAuthors = await client.getEntries({ content_type: 'authors' })
+
+  return {
+    props: {
+      authors: responseAuthors.items
+    }
+  }
+
+}
 
 export default function Home({ authors }) {
   console.log(authors)

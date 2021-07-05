@@ -1,7 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project intended to repace the website for [Crossing the Divide](crossing-the-divide.org). It will enable dynamic functionality such as a contentful integration.
-
-## Getting Started
 #
+## Getting Started
+
 To get paste the follwing commands in the terminal:
 ```bash
 # save the project to your local directory
@@ -19,7 +19,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-
+#
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
@@ -27,8 +27,8 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-
-## Deployment status
+#
+## Deployment
 
 This prototype website is deployed [here](https://crossing-the-divide.vercel.app)
 

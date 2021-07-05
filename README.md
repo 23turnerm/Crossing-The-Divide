@@ -6,13 +6,14 @@ To get paste the follwing commands in the terminal:
 ```bash
 # save the project to your local directory
 git clone https://github.com/EmilianoGarciaLopez/Crossing-The-Divide.git ctd
+
 # switch to development branch
 cd ctd
 git fetch
 git checkout js-prototype
 ```
 
-After clonging the project to your local environment, you should run the following commands to begin developing
+After clonging the project to your local environment, you should run the following commands to begin editing the projext. The following command will install the appropriate npm packages and provision a live-updating local server. 
 ```bash
 npm run dev
 ```
